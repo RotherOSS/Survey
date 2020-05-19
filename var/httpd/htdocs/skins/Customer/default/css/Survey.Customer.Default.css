@@ -20,17 +20,44 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 @media screen,projection,tv,handheld {
 
+#oooHeader {
+    height: 97px;
+    background-color: #ffffff;
+    padding-top: 48px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #oooHeader {
+        height: 90px;
+        padding-top: 55px;
+        padding-left: 8px;
+    }
+
+}
+
+#oooMainBox {
+    background-color: #f7f7f9;
+    background-color: var(--colBGLight);
+    min-height: calc( 100vh - 265px );
+}
+
+fieldset.Survey,
 div.SurveyBlock {
-    margin: 8px 0 13px;
-    padding-bottom: 5px;
-    background: linear-gradient(to bottom, #FFFFFF 0%, #F8F9F9 100%) repeat scroll 0 0 transparent;
-    border: 1px solid #EAEEEE;
-    border-radius: 5px;
-    width: 738px;
+    width: calc( 100% - 32px );
+    max-width: 738px;
+    border-radius: 15px;
+    padding: 24px 16px 24px 16px;
+    background-color: #ffffff;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 4px 0 rgba(4, 0, 71, 0.16);
+    box-shadow: 0 1px 4px 0 val(--colShadowDark);
+    margin-top: 16px;
 }
 
 .SurveyBlock div.Content {
-    border: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
 .SurveyBlockHeader {
@@ -44,12 +71,13 @@ div.SurveyBlock {
     text-shadow: 0 1px 0 #FFFFFF;
 }
 
-fieldset.Survey {
-    width: 738px;
-}
-
 div.ActionRow {
-    width: 720px;
+    max-width: 770px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+    text-align: right;
 }
 
 div.Intro .Content{
@@ -62,7 +90,7 @@ div.Question{
     font-size: 12px;
     margin-left: 40px;
     margin-top: 15px;
-    width: 520px;
+    width: calc( 100% - 58px );
     padding: 4px 9px 3px 9px;
     text-shadow: 0 1px 0 #ECEEEE;
     font-weight: bold;
@@ -91,10 +119,20 @@ div.Tongue {
 label.Answer {
     background:none;
     border: none;
-    width: 365px;
-    margin-left: 8px;
-    margin-top: 3px;
+    margin: 3px 0 0 8px;
     text-align:left;
+    padding: 0;
+    position: static;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.35px;
+    color: #7f809d;
+    color: var(--colTextLight);
+}
+
+.Mandatory ~ label.Answer {
+    color: #00023c;
+    color: var(--colTextDark);
 }
 
 label.Answer.NPS {
@@ -102,23 +140,35 @@ label.Answer.NPS {
 }
 
 fieldset input,
-div.Answer {
-    float:left;
-}
-
-fieldset input,
 fieldset input.NPS,
 fieldset textarea,
 div.Answer {
-    margin: 7px 0 7px 75px;
+    margin: 14px 0 0 75px;
 }
 
 fieldset input.NPS:not(:first-of-type) {
-    margin: 7px 0 7px 7px;
+    margin: 14px 0 0 7px;
 }
 
 .RichTextAnswer {
-    margin: 7px 0 7px 75px;
+    margin: 14px 0 0 75px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .RichTextAnswer {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    .RichTextAnswer > textarea,
+    .RichTextAnswer > .cke {
+        width: 100% !important;
+    }
+
 }
 
 div.Answer {
@@ -141,4 +191,13 @@ div.Answer {
     padding:4px 8px 7px 24px;
     position:absolute;
 }
+
+.SurveyBlock + form {
+    margin-top: 24px;
+    text-align: right;
+    max-width: 770px;
 }
+
+}
+
+
