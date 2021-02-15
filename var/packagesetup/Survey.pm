@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -136,7 +136,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_2_0_92();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_2_0_92 {    ## no critic
+sub CodeUpgradeFromLowerThan_2_0_92 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # get database object
@@ -179,7 +179,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_2_1_5();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_2_1_5 {    ## no critic
+sub CodeUpgradeFromLowerThan_2_1_5 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # set all survey_question records
@@ -198,7 +198,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_4_0_1();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_4_0_1 {    ## no critic
+sub CodeUpgradeFromLowerThan_4_0_1 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # migrate the DTL Content in the SysConfig
@@ -215,7 +215,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_4_0_91();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_4_0_91 {    ## no critic
+sub CodeUpgradeFromLowerThan_4_0_91 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # change configurations to match the new module location.
@@ -233,7 +233,7 @@ where there is no entry present.
 
 =cut
 
-sub _Prefill_AnswerRequiredFromSurveyQuestion_2_1_5 {    ## no critic
+sub _Prefill_AnswerRequiredFromSurveyQuestion_2_1_5 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ($Self) = @_;
 
     # get database object

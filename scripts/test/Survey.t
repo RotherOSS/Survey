@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -14,7 +14,6 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-## no critic (Modules::RequireExplicitPackage)
 use strict;
 use warnings;
 use utf8;
@@ -202,7 +201,7 @@ my @Tests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Result => [
             1,
@@ -236,7 +235,7 @@ my @Tests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Result => [
             0,
@@ -520,7 +519,7 @@ END
 
 my @SendConditionTests = (
     {
-        Name => 'SendCondition#1 without send condition check (ticket type and service)',
+        Name                                       => 'SendCondition#1 without send condition check (ticket type and service)',
         'Survey::CheckSendConditionTicketType'     => 0,
         'Survey::CheckSendConditionService'        => 0,
         'Survey::CheckSendConditionCustomerFields' => 0,
@@ -550,7 +549,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 1,
     },
@@ -584,7 +583,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 1,
     },
@@ -618,7 +617,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 0,
     },
@@ -652,7 +651,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 1,
     },
@@ -686,7 +685,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 0,
     },
@@ -721,12 +720,12 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 1,
     },
     {
-        Name => 'SendCondition#7 try with check for ticket type id (value false) and service',
+        Name                                       => 'SendCondition#7 try with check for ticket type id (value false) and service',
         'Survey::CheckSendConditionTicketType'     => 1,
         'Survey::CheckSendConditionService'        => 1,
         'Survey::CheckSendConditionCustomerFields' => 0,
@@ -756,12 +755,12 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 0,
     },
     {
-        Name => 'SendCondition#8 try with check for ticket type and service (value false)',
+        Name                                       => 'SendCondition#8 try with check for ticket type and service (value false)',
         'Survey::CheckSendConditionTicketType'     => 1,
         'Survey::CheckSendConditionService'        => 1,
         'Survey::CheckSendConditionCustomerFields' => 0,
@@ -791,7 +790,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 0,
     },
@@ -827,7 +826,7 @@ my @SendConditionTests = (
             HistoryType          => 'OwnerUpdate',
             HistoryComment       => 'Some free text!',
             UserID               => 1,
-            NoAgentNotify        => 1,                                   # if you don't want to send agent notifications
+            NoAgentNotify        => 1,                                     # if you don't want to send agent notifications
         },
         Success => 0,
     },

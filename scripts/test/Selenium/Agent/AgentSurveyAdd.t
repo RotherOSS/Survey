@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -14,7 +14,6 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-## no critic (Modules::RequireExplicitPackage)
 use strict;
 use warnings;
 use utf8;
@@ -125,8 +124,8 @@ $Selenium->RunTest(
             SurveyID => $SurveyID,
         );
 
-# Delete keys that we don't want to compare. Note that CustomerUserConditionsJSON has sometimes different order and therefore
-# it's not evaluated. Also, NotificationBody contains OTOBO link, which is different for each system and it's not so relevant for the test.
+        # Delete keys that we don't want to compare. Note that CustomerUserConditionsJSON has sometimes different order and therefore
+        # it's not evaluated. Also, NotificationBody contains OTOBO link, which is different for each system and it's not so relevant for the test.
         for my $Key (
             qw(CreateTime CreateBy ChangeTime ChangeBy SurveyNumber CustomerUserConditionsJSON NotificationBody)
             )
@@ -161,10 +160,10 @@ $Selenium->RunTest(
             "NotificationSender"  => "quality\@example.com",
             "NotificationSubject" => "Help us with your feedback!",
             "Queues"              => [],
-            "SendConditionsRaw" => "---\nCustomerUserConditions:\n  UserLogin:\n  - Negation: 0\n    RegExpValue: ''\n",
-            "Status"            => "New",
-            "SurveyID"          => $SurveyID,
-            "Title"             => $SurveyTitle,
+            "SendConditionsRaw"   => "---\nCustomerUserConditions:\n  UserLogin:\n  - Negation: 0\n    RegExpValue: ''\n",
+            "Status"              => "New",
+            "SurveyID"            => $SurveyID,
+            "Title"               => $SurveyTitle,
         );
 
         $Self->IsDeeply(
