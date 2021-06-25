@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-06-25 19:53+0000\n"
+"Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
+"Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
+"otobo10/survey/es_MX/>\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
@@ -124,7 +127,8 @@ msgstr "No hay respuestas almacenadas para esta pregunta."
 
 #. Template: AgentSurveyEditQuestions
 msgid "This doesn't have several answers, a textarea will be displayed."
-msgstr "Esta pregunta no tiene varias respuestas, un area de texto será mostrada"
+msgstr ""
+"Esta pregunta no tiene varias respuestas, un área de texto será mostrada."
 
 #. Template: AgentSurveyEditQuestions
 msgid "Edit Answer"
@@ -280,7 +284,7 @@ msgstr "Usted not tiene permisos en esta encuesta!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "No SurveyID is given!"
-msgstr "No se ha dado el SurveyID"
+msgstr "¡No se ha dado el SurveyID!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "Survey Edit"
@@ -304,7 +308,7 @@ msgstr "Si/No"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Radio (List)"
-msgstr "Opción (lista) "
+msgstr "Opción (lista)"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Checkbox (List)"
@@ -352,7 +356,7 @@ msgstr "No se puede establecer nuevo estado! No hay preguntas definidas."
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Can't set new status! Questions incomplete."
-msgstr "No puede cambiarse el estado! Preguntas Incompletas!"
+msgstr "¡No puede cambiarse el estado! Preguntas Incompletas."
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Status changed."
@@ -400,7 +404,7 @@ msgstr "no respondido"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Thank you for your feedback."
-msgstr "Gracias por su retroalimentación"
+msgstr "Gracias por su retroalimentación."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The survey is finished."
@@ -416,7 +420,8 @@ msgstr "Módulo no habilitado."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "This functionality is not enabled, please contact your administrator."
-msgstr "Esta funcionalidad no esta habilitada, por favor contacte al administrador"
+msgstr ""
+"Esta funcionalidad no esta habilitada, por favor contacte al administrador."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Error!"
@@ -428,7 +433,9 @@ msgstr "Llave de encuesta inválida."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken."
-msgstr "La llave insertada de la encuesta es inválida,  si ha seguido una liga, quizá este obsoleta o rota. "
+msgstr ""
+"La llave insertada de la encuesta es inválida, si ha seguido un enlace, "
+"quizá este obsoleta o rota."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote"
@@ -468,7 +475,10 @@ msgstr "Todos los parametros para el objeto Encuesta en la interfase de agente."
 
 #. SysConfig
 msgid "Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail."
-msgstr "Cantidad de días después de haber mandando un correo electrónico de encuesta en los que no se mandarán nuevas encuestas hacia el mismo cliente. Seleccionar 0 mandará nuevos correos electrónicos de encuesta siempre. "
+msgstr ""
+"Cantidad de días después de enviar un correo de encuesta en los que no se "
+"envían nuevas solicitudes de encuesta al mismo cliente. Si se selecciona 0 "
+"se enviará siempre el correo de la encuesta."
 
 #. SysConfig
 msgid "Default body for the notification email to customers about new survey."
@@ -572,7 +582,7 @@ msgstr "Si esta expresión regular concuerda, la encuesta no será enviada."
 
 #. SysConfig
 msgid "Limit."
-msgstr "Límite"
+msgstr "Límite."
 
 #. SysConfig
 msgid "Parameters for the pages (in which the surveys are shown) of the small survey overview."
@@ -608,7 +618,7 @@ msgstr "Detalle de la Encuesta"
 
 #. SysConfig
 msgid "Survey Add Module."
-msgstr "Módulo para agregar Encuestas"
+msgstr "Módulo para agregar Encuestas."
 
 #. SysConfig
 msgid "Survey Edit Module."
@@ -616,7 +626,7 @@ msgstr "Módulo de Edición de Encuesta."
 
 #. SysConfig
 msgid "Survey Overview \"Small\" Limit"
-msgstr "Limite de la vista de resumen pequeña."
+msgstr "Limite de la vista de resumen \"pequeña\""
 
 #. SysConfig
 msgid "Survey Stats Module."
@@ -648,9 +658,8 @@ msgstr "Dispara la eliminación de resultados (incluyendo datos de votos y petic
 
 #. SysConfig
 msgid "Trigger sending delayed survey requests."
-msgstr "Disparador para solicitudes de envío de encuestas retrasadas "
+msgstr "Disparador para solicitudes de envío de encuestas retrasadas."
 
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Ir a los detalles de la estadística."
-
