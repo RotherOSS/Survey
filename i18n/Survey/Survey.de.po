@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-07-01 02:17+0000\n"
+"Last-Translator: Grit Rother <mr@otobo.de>\n"
+"Language-Team: German <https://translate.otobo.org/projects/otobo10/survey/"
+"de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
@@ -16,7 +19,7 @@ msgstr "Neue Umfrage erstellen"
 
 #. Template: AgentSurveyAdd
 msgid "Introduction"
-msgstr "Einleitungstext"
+msgstr "Einleitung"
 
 #. Template: AgentSurveyAdd
 msgid "Survey Introduction"
@@ -288,11 +291,11 @@ msgstr "Umfrage bearbeiten"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "You have no permission for this survey or question!"
-msgstr "Sie haben keine Berechtigung für diese Umfrage oder Frage."
+msgstr "Sie haben keine Berechtigung für diese Umfrage oder Frage!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "You have no permission for this survey, question or answer!"
-msgstr "Sie haben keine Berechtigung für diese Umfrage, Frage oder Antwort."
+msgstr "Sie haben keine Berechtigung für diese Umfrage, Frage oder Antwort!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Survey Edit Questions"
@@ -340,7 +343,7 @@ msgstr "Statistikübersicht"
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "You have no permission for this survey or stats detail!"
-msgstr "Sie haben keine Berechtigung für diese Umfrage- oder Statistikdetails."
+msgstr "Sie haben keine Berechtigung für diese Umfrage- oder Statistikdetails!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "Stats Detail"
@@ -417,6 +420,7 @@ msgstr "Modul nicht akiviert."
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "This functionality is not enabled, please contact your administrator."
 msgstr ""
+"Dieses Feature ist nicht aktiv. Bitte wenden Sie sich an Ihren Administrator."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Error!"
@@ -424,7 +428,7 @@ msgstr "Umfragefehler!"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Invalid survey key."
-msgstr ""
+msgstr "Ungültiger Umfrageschlüssel."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken."
@@ -436,7 +440,7 @@ msgstr "Umfragestimme"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote Data"
-msgstr ""
+msgstr "Daten Umfrageergebnisse"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "You have already answered the survey."
@@ -460,7 +464,7 @@ msgstr "Ein Umfrage-Modul."
 
 #. SysConfig
 msgid "A module to edit survey questions."
-msgstr "Ein Modul, um Umfragen zu bearbeiten"
+msgstr "Ein Modul, um Umfragen zu bearbeiten."
 
 #. SysConfig
 msgid "All parameters for the Survey object in the agent interface."
@@ -496,7 +500,10 @@ msgstr "Definiert, ob Umfrage-Anfragen nur an reale Kunden gesendet werden."
 
 #. SysConfig
 msgid "Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent)."
-msgstr "Definiert die maximale Anzahl von Umfragen die ein Kunde innerhalb von 30 Tagen zugesandt bekommt. ( 0 steht für kein Maximum, alle Umfrage-E-Mails werden versandt.)"
+msgstr ""
+"Definiert die maximale Anzahl von Umfragen, die ein Kunde innerhalb von 30 "
+"Tagen zugesandt bekommt. ( 0 steht für „kein Maximum“, alle Umfrage-E-Mails "
+"werden versandt.)"
 
 #. SysConfig
 msgid "Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of 'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
@@ -572,7 +579,7 @@ msgstr "Wenn dieser reguläre Ausdruck zutrifft, wird keine Umfrage an den Kunde
 
 #. SysConfig
 msgid "Limit."
-msgstr "Limit."
+msgstr "Grenzwert."
 
 #. SysConfig
 msgid "Parameters for the pages (in which the surveys are shown) of the small survey overview."
@@ -648,9 +655,8 @@ msgstr "Auslöser zum Löschen von Ergebnissen (inklusive Abstimmungsdaten und A
 
 #. SysConfig
 msgid "Trigger sending delayed survey requests."
-msgstr "Auslöser zum Senden von verzögerten Anfragen"
+msgstr "Auslöser zum Senden von verzögerten Anfragen."
 
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Statistik-Details erhöhen."
-
