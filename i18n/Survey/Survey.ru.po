@@ -2,13 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-05-27 03:10+0000\n"
+"Last-Translator: Philipp Kesler <philipp.kesler@hein.de>\n"
+"Language-Team: Russian <https://translate.otobo.org/projects/otobo10/survey/"
+"ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
@@ -36,19 +40,19 @@ msgstr "Внутреннее описание"
 
 #. Template: AgentSurveyAdd
 msgid "Customer conditions"
-msgstr ""
+msgstr "Условия для клиентов"
 
 #. Template: AgentSurveyAdd
 msgid "Please choose a Customer property to add a condition."
-msgstr ""
+msgstr "Выберите <Свойство клиента>, чтобы добавить условие."
 
 #. Template: AgentSurveyAdd
 msgid "Public survey key"
-msgstr ""
+msgstr "Открытый ключ опроса"
 
 #. Template: AgentSurveyAdd
 msgid "Example survey"
-msgstr ""
+msgstr "Пример опроса"
 
 #. Template: AgentSurveyEdit
 msgid "Edit General Info"
@@ -644,7 +648,7 @@ msgstr "Модуль управления событием для заявки, 
 
 #. SysConfig
 msgid "Trigger delete results (including vote data and requests)."
-msgstr ""
+msgstr "Триггер удаления результатов (включая данные голосования и запросы)."
 
 #. SysConfig
 msgid "Trigger sending delayed survey requests."
@@ -652,5 +656,4 @@ msgstr "Триггер отправки задержанных запросов 
 
 #. SysConfig
 msgid "Zoom into statistics details."
-msgstr ""
-
+msgstr "Масштабировать детали статистики."
