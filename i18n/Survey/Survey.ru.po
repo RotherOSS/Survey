@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: 2022-06-09 09:26+0000\n"
+"PO-Revision-Date: 2022-06-10 02:54+0000\n"
 "Last-Translator: Philipp Kesler <philipp.kesler@hein.de>\n"
 "Language-Team: Russian <https://translate.otobo.org/projects/otobo10/survey/"
 "ru/>\n"
@@ -415,7 +415,7 @@ msgstr "Опрос завершен."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Message!"
-msgstr ""
+msgstr "Сообщение об опросе!"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Module not enabled."
@@ -423,11 +423,11 @@ msgstr "Модуль не включен"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "This functionality is not enabled, please contact your administrator."
-msgstr ""
+msgstr "Эта функция не включена, обратитесь к администратору."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Error!"
-msgstr ""
+msgstr "Ошибка опроса!"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Invalid survey key."
@@ -436,14 +436,16 @@ msgstr "Неверный код опроса"
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken."
 msgstr ""
+"Введенный ключ опроса недействителен, если вы перешли по ссылке, возможно, "
+"она устарела или сломана."
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote"
-msgstr ""
+msgstr "Голосование по опросу"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote Data"
-msgstr ""
+msgstr "Данные голосования по опросу"
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "You have already answered the survey."
@@ -451,7 +453,7 @@ msgstr "Вы уже прошли опрос."
 
 #. Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
 msgid "Survey List"
-msgstr ""
+msgstr "Список опросов"
 
 #. JS File: Survey.Agent.SurveyEditQuestions
 msgid "Do you really want to delete this question? ALL associated data will be LOST!"
@@ -496,10 +498,14 @@ msgstr "Задает модуль просмотра для отображени
 #. SysConfig
 msgid "Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status."
 msgstr ""
+"Определяет группы, у которых есть разрешение на изменение статуса опроса. По "
+"умолчанию массив пуст, и агенты из всех групп могут изменять статус опроса."
 
 #. SysConfig
 msgid "Defines if survey requests will be only send to real customers."
 msgstr ""
+"Определяет, будут ли запросы на опрос отправляться только существующим "
+"клиентам."
 
 #. SysConfig
 msgid "Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent)."
@@ -508,10 +514,17 @@ msgstr "Задает максимальное количество опросо�
 #. SysConfig
 msgid "Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of 'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
 msgstr ""
+"Определяет количество часов, в течение которых тикет должен быть закрыт, "
+"чтобы инициировать отправку опроса (0 означает отправку сразу после закрытия)"
+". Примечание: отложенная отправка опросов осуществляется демоном OTOBO, до "
+"активации настройки "
+"'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend'."
 
 #. SysConfig
 msgid "Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active)."
 msgstr ""
+"Определяет столбцы выпадающего списка для построения условий отправки (0 => "
+"неактивно, 1 => активно)."
 
 #. SysConfig
 msgid "Defines the default height for Richtext views for SurveyZoom elements."
@@ -519,11 +532,13 @@ msgstr "Задает высоту по умолчанию области фор�
 
 #. SysConfig
 msgid "Defines the groups (rw) which can delete survey stats."
-msgstr ""
+msgstr "Определяет группы (rw), которые могут удалять статистику опроса."
 
 #. SysConfig
 msgid "Defines the maximum height for Richtext views for SurveyZoom elements."
 msgstr ""
+"Определяет максимальную высоту для представлений Richtext для элементов "
+"SurveyZoom."
 
 #. SysConfig
 msgid "Defines the shown columns in the survey overview. This option has no effect on the position of the columns."
@@ -531,11 +546,11 @@ msgstr "Задает перечень колонок, отображаемых �
 
 #. SysConfig
 msgid "Determines if the statistics module may generate survey lists."
-msgstr ""
+msgstr "Определяет, может ли модуль статистики генерировать списки опросов."
 
 #. SysConfig
 msgid "Edit survey general information."
-msgstr ""
+msgstr "Редактирование общей информации об опросе."
 
 #. SysConfig
 msgid "Edit survey questions."
@@ -592,6 +607,9 @@ msgstr "Общедоступный опрос."
 #. SysConfig
 msgid "Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of 'Task###SurveyRequestsDelete' setting."
 msgstr ""
+"Результаты старше настроенного количества дней будут удалены. Примечание: "
+"удаление результатов производится демоном OTOBO Daemon, до активации "
+"настройки 'Task###SurveyRequestsDelete'."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a survey in its zoom view of the agent interface."
@@ -635,7 +653,7 @@ msgstr "Модуль подробного просмотра опросов."
 
 #. SysConfig
 msgid "Survey limit per page for Survey Overview \"Small\"."
-msgstr ""
+msgstr "Предел опроса на страницу для обзора опроса \" Небольшой\"."
 
 #. SysConfig
 msgid "Surveys will not be sent to the configured email addresses."
