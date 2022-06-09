@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: 2022-05-27 03:10+0000\n"
+"PO-Revision-Date: 2022-06-09 09:26+0000\n"
 "Last-Translator: Philipp Kesler <philipp.kesler@hein.de>\n"
 "Language-Team: Russian <https://translate.otobo.org/projects/otobo10/survey/"
 "ru/>\n"
@@ -20,7 +20,7 @@ msgstr "Создать новый опрос"
 
 #. Template: AgentSurveyAdd
 msgid "Introduction"
-msgstr "Описание"
+msgstr "Введение"
 
 #. Template: AgentSurveyAdd
 msgid "Survey Introduction"
@@ -144,23 +144,26 @@ msgstr "Ответ:"
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Survey overview options"
-msgstr ""
+msgstr "Параметры обзора опроса"
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name."
 msgstr ""
+"Выполняет поиск в атрибутах Number, Title, Introduction, Description, "
+"NotificationSender, NotificationSubject и NotificationBody, переопределяя "
+"другие атрибуты с тем же именем."
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Survey Create Time"
-msgstr ""
+msgstr "Время создания опроса"
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "No restriction"
-msgstr ""
+msgstr "Без ограничений"
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Only surveys created between"
-msgstr ""
+msgstr "Только опросы, созданные между"
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Max. shown surveys per page"
@@ -188,7 +191,7 @@ msgstr "Таблица ответов"
 
 #. Template: AgentSurveyStats
 msgid "Select all requests"
-msgstr ""
+msgstr "Выберите все запросы"
 
 #. Template: AgentSurveyStats
 msgid "Send Time"
@@ -200,7 +203,7 @@ msgstr "Время ответа"
 
 #. Template: AgentSurveyStats
 msgid "Select this request"
-msgstr ""
+msgstr "Выберите этот запрос"
 
 #. Template: AgentSurveyStats
 msgid "See Details"
@@ -208,7 +211,7 @@ msgstr "См. подробности"
 
 #. Template: AgentSurveyStats
 msgid "Delete stats"
-msgstr ""
+msgstr "Удалить статистику"
 
 #. Template: AgentSurveyStats
 msgid "Survey Stat Details"
@@ -220,11 +223,11 @@ msgstr "назад"
 
 #. Template: AgentSurveyStats
 msgid "Previous vote"
-msgstr ""
+msgstr "Предыдущее голосование"
 
 #. Template: AgentSurveyStats
 msgid "Next vote"
-msgstr ""
+msgstr "Следующее голосование"
 
 #. Template: AgentSurveyZoom
 msgid "Survey Information"
@@ -284,7 +287,7 @@ msgstr "У вас нет разрешения для этого опроса!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "No SurveyID is given!"
-msgstr ""
+msgstr "Идентификатор опроса не предоставляется!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "Survey Edit"
@@ -316,7 +319,7 @@ msgstr "Галочки (Список)"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Net Promoter Score"
-msgstr ""
+msgstr "индекс лояльности клиентов"
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Question Type"
