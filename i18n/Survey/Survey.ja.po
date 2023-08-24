@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2020-01-24 14:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-08-25 02:32+0000\n"
+"Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
+"Language-Team: Japanese <https://translate.otobo.org/projects/otobo10/survey/"
+"ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
@@ -120,7 +123,7 @@ msgstr "回答の追加"
 
 #. Template: AgentSurveyEditQuestions
 msgid "No answers saved for this question."
-msgstr "この質問への回答はまだありません"
+msgstr "この質問への回答はまだありません。"
 
 #. Template: AgentSurveyEditQuestions
 msgid "This doesn't have several answers, a textarea will be displayed."
@@ -536,7 +539,8 @@ msgstr "アンケートの質問を修正"
 
 #. SysConfig
 msgid "Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time."
-msgstr "公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答データを表示するShowVoteData画面を有効にするか否か"
+msgstr ""
+"公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答データを表示するShowVoteData画面を有効にするか否かを設定します。"
 
 #. SysConfig
 msgid "Enable or disable the send condition check for the service."
@@ -653,4 +657,3 @@ msgstr "追ってのアンケート要求を送信するトリガ"
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "統計情報の詳細をズームインする。"
-
