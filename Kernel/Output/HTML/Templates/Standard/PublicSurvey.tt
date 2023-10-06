@@ -58,7 +58,7 @@
                 <div class="QuestionContainer">
 [% RenderBlockStart("PublicAnswerYesNo") %]
 
-                    <div class="Question [% Data.Class | html %]"> [% Data.RequiredText | html %][% Data.Question %] </div>
+                    <div class="Question [% Data.Class | html %]"> [% Data.RequiredText | html %][% Data.Question | html %] </div>
                     [% Data.ErrorText %]
 
                     <input type="radio" id="PublicSurveyVote1[% Data.QuestionID | html %]Yes" name="PublicSurveyVote1[[% Data.QuestionID | html %]]" value="Yes" [% Data.YesSelected | html %] />
