@@ -137,6 +137,9 @@ sub Run {
             # fetch the result
             while ( my @Row = $DBObject->FetchrowArray() ) {
 
+                # vote time can be null
+                $Row[3] = $Row[3] || "-";
+
                 my $Result = join(
                     ' ', "Survey:" . $Row[0] . "\t",
                     "TicketNumber:" . $Row[1] . "\t",
