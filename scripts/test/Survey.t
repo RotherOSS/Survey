@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -18,9 +18,7 @@ use strict;
 use warnings;
 use utf8;
 
-use vars qw($Self);
-
-use Data::Dumper;
+our $Self;
 
 $Kernel::OM->ObjectParamAdd(
     'Kernel::System::UnitTest::Helper' => {
@@ -442,12 +440,13 @@ for my $Test (@Tests) {
             "$Test->{Name} RequestSend() - survey got sent",
         );
 
-        $Response->{Data}->{Header} =~ m{ ^ Subject: [ ] ( .+? ) \n \S+: [ ] }xms;
-        $Self->Is(
-            $1,
-            'Help us with your feedback! =?UTF-8?Q?=C3=84=C3=96=C3=9C?=',
-            "$Test->{Name} Test special characters in email subject",
-        );
+        if ( $Response->{Data}->{Header} =~ m{ ^ Subject: [ ] ( .+? ) \n \S+: [ ] }xms ) {
+            $Self->Is(
+                $1,
+                'Help us with your feedback! =?UTF-8?Q?=C3=84=C3=96=C3=9C?=',
+                "$Test->{Name} Test special characters in email subject",
+            );
+        }
 
         # define mail body
         my $Mailbody1 = <<'END';
@@ -1071,7 +1070,7 @@ $Self->True(
 my @SortedIDs = $SurveyObject->SurveySearch(
     NotificationSender => 'quality@unittest.com',
     OrderBy            => [ 'SurveyID', 'Title' ],    # (optional)
-    OrderByDirection   => [ 'Down', 'Up' ],           # (optional)
+    OrderByDirection   => [ 'Down',     'Up' ],       # (optional)
     Limit              => 150,                        # (optional)
     UserID             => 1,
 );

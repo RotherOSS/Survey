@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -60,7 +60,7 @@ sub Run {
     # get groups
     my $Action   = $Param{Config}->{Action};
     my $GroupsRo = $ConfigObject->Get('Frontend::Module')->{$Action}->{GroupRo} || [];
-    my $GroupsRw = $ConfigObject->Get('Frontend::Module')->{$Action}->{Group} || [];
+    my $GroupsRw = $ConfigObject->Get('Frontend::Module')->{$Action}->{Group}   || [];
 
     # get layout object
     my $LayoutObject = $Kernel::OM->Get('Kernel::Output::HTML::Layout');

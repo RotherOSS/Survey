@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -331,14 +331,14 @@ sub Run {
 
         # clean HTML
         if ( $Survey{Introduction} ) {
-            $Survey{Introduction} =~ s{\A\$html\/text\$\s(.*)}{$1}xms;
-
-            my $HTMLContent = $1;
-            if ( !$HTMLContent ) {
-                $Survey{Introduction} = $LayoutObject->Ascii2Html(
-                    Text           => $Survey{Introduction},
-                    HTMLResultMode => 1,
-                );
+            if ( $Survey{Introduction} =~ s{\A\$html\/text\$\s(.*)}{$1}xms ) {
+                my $HTMLContent = $1;
+                if ( !$HTMLContent ) {
+                    $Survey{Introduction} = $LayoutObject->Ascii2Html(
+                        Text           => $Survey{Introduction},
+                        HTMLResultMode => 1,
+                    );
+                }
             }
         }
 
@@ -474,13 +474,14 @@ sub Run {
     elsif ( $Survey{SurveyID} ) {
 
         # clean HTML and process introduction text
-        $Survey{Introduction} =~ s{\A\$html\/text\$\s(.*)}{$1}xms;
-        my $HTMLContent = $1;
-        if ( !$HTMLContent ) {
-            $Survey{Introduction} = $LayoutObject->Ascii2Html(
-                Text           => $Survey{Introduction},
-                HTMLResultMode => 1,
-            );
+        if ( $Survey{Introduction} =~ s{\A\$html\/text\$\s(.*)}{$1}xms ) {
+            my $HTMLContent = $1;
+            if ( !$HTMLContent ) {
+                $Survey{Introduction} = $LayoutObject->Ascii2Html(
+                    Text           => $Survey{Introduction},
+                    HTMLResultMode => 1,
+                );
+            }
         }
         $LayoutObject->Block(
             Name => 'PublicSurvey',
@@ -568,13 +569,13 @@ sub Run {
 
                 $ErrorText = '<p>'
                     . (
-                    join "</p>\n<p>",
-                    map { $LayoutObject->{LanguageObject}->Translate($_) }
+                        join "</p>\n<p>",
+                        map { $LayoutObject->{LanguageObject}->Translate($_) }
                         keys %{ $Errors{ $Question->{QuestionID} } }
                     )
                     . '</p>';
 
-                $ErrorText = <<END;
+                $ErrorText = <<'END';
                 <div class="TooltipError">
                 <div class="Tooltip TongueLeft">
                     <div class="Tongue" ></div>

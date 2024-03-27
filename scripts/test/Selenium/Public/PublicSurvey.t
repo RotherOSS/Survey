@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -18,7 +18,7 @@ use strict;
 use warnings;
 use utf8;
 
-use vars (qw($Self));
+our $Self;
 use Kernel::System::VariableCheck qw(IsArrayRefWithData);
 
 my $Selenium = $Kernel::OM->Get('Kernel::System::UnitTest::Selenium');
@@ -62,9 +62,9 @@ $Selenium->RunTest(
         );
 
         # Create test survey.
-        my $SurveryIntroduction    = 'Survey Introduction',
+        my $SurveryIntroduction = 'Survey Introduction',
             my $SurveryDescription = 'Survey Description',
-            my $SurveyTitle        = 'Survey ' . $Helper->GetRandomID();
+            my $SurveyTitle = 'Survey ' . $Helper->GetRandomID();
         my $SurveyID = $SurveyObject->SurveyAdd(
             UserID              => 1,
             Title               => $SurveyTitle,

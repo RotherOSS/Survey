@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -113,8 +113,8 @@ sub SurveyAdd {
     # check needed stuff
     for my $Argument (
         qw(
-        UserID Title Introduction Description
-        NotificationSender NotificationSubject NotificationBody
+            UserID Title Introduction Description
+            NotificationSender NotificationSubject NotificationBody
         )
         )
     {
@@ -145,7 +145,7 @@ sub SurveyAdd {
         Bind => [
             \$Param{Title},              \$Param{Introduction},        \$Param{Description},
             \$Param{NotificationSender}, \$Param{NotificationSubject}, \$Param{NotificationBody},
-            \$Status, \$SendConditionStrg, \$Param{UserID},
+            \$Status,                    \$SendConditionStrg,          \$Param{UserID},
             \$Param{UserID},
         ],
     );
@@ -393,8 +393,8 @@ sub SurveyUpdate {
     # check needed stuff
     for my $Argument (
         qw(
-        UserID SurveyID Title Introduction Description
-        NotificationSender NotificationSubject NotificationBody
+            UserID SurveyID Title Introduction Description
+            NotificationSender NotificationSubject NotificationBody
         )
         )
     {
@@ -435,7 +435,7 @@ sub SurveyUpdate {
         Bind => [
             \$Param{Title},              \$Param{Introduction},        \$Param{Description},
             \$Param{NotificationSender}, \$Param{NotificationSubject}, \$Param{NotificationBody},
-            \$SendConditionStrg, \$Param{UserID}, \$Param{SurveyID},
+            \$SendConditionStrg,         \$Param{UserID},              \$Param{SurveyID},
         ],
     );
 
