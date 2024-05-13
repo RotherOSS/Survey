@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -24,147 +24,144 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'Create New Survey'}                                     = 'Vytvořit nový průzkum';
-    $Self->{Translation}->{'Introduction'}                                          = 'Úvod';
-    $Self->{Translation}->{'Survey Introduction'}                                   = 'Úvod Průzkumu';
-    $Self->{Translation}->{'Notification Body'}                                     = 'Tělo Notifikace';
-    $Self->{Translation}->{'Ticket Types'}                                          = 'Typy Ticket';
-    $Self->{Translation}->{'Internal Description'}                                  = 'Interní Popis';
-    $Self->{Translation}->{'Customer conditions'}                                   = '';
+    $Self->{Translation}->{'Create New Survey'} = 'Vytvořit nový průzkum';
+    $Self->{Translation}->{'Introduction'} = 'Úvod';
+    $Self->{Translation}->{'Survey Introduction'} = 'Úvod Průzkumu';
+    $Self->{Translation}->{'Notification Body'} = 'Tělo Notifikace';
+    $Self->{Translation}->{'Ticket Types'} = 'Typy Ticket';
+    $Self->{Translation}->{'Internal Description'} = 'Interní Popis';
+    $Self->{Translation}->{'Customer conditions'} = '';
     $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
-    $Self->{Translation}->{'Public survey key'}                                     = 'Veřejný klíč průzkumu';
-    $Self->{Translation}->{'Example survey'}                                        = 'Ukázkový průzkum';
+    $Self->{Translation}->{'Public survey key'} = 'Veřejný klíč průzkumu';
+    $Self->{Translation}->{'Example survey'} = 'Ukázkový průzkum';
 
     # Template: AgentSurveyEdit
     $Self->{Translation}->{'Edit General Info'} = 'Upravit Základní Info';
 
     # Template: AgentSurveyEditQuestions
-    $Self->{Translation}->{'Edit Questions'}                      = 'Upravit Otázky';
-    $Self->{Translation}->{'You are here'}                        = 'Jste zde';
-    $Self->{Translation}->{'Survey Questions'}                    = 'Otázky Půrzkumu';
-    $Self->{Translation}->{'Add Question'}                        = 'Přidat Otázku';
-    $Self->{Translation}->{'Type the question'}                   = 'Napište otázku';
-    $Self->{Translation}->{'Answer required'}                     = 'Odpověď je požadována';
+    $Self->{Translation}->{'Edit Questions'} = 'Upravit Otázky';
+    $Self->{Translation}->{'You are here'} = 'Jste zde';
+    $Self->{Translation}->{'Survey Questions'} = 'Otázky Půrzkumu';
+    $Self->{Translation}->{'Add Question'} = 'Přidat Otázku';
+    $Self->{Translation}->{'Type the question'} = 'Napište otázku';
+    $Self->{Translation}->{'Answer required'} = 'Odpověď je požadována';
     $Self->{Translation}->{'No questions saved for this survey.'} = 'Průzkum neobsahuje žádné otázky.';
-    $Self->{Translation}->{'Question'}                            = 'Otázka';
-    $Self->{Translation}->{'Answer Required'}                     = 'Odpověď je požadována';
+    $Self->{Translation}->{'Question'} = 'Otázka';
+    $Self->{Translation}->{'Answer Required'} = 'Odpověď je požadována';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
         'Až ukončíte úpravu otázek, tak jen zavřete okno.';
-    $Self->{Translation}->{'Close this window'}                   = '';
-    $Self->{Translation}->{'Edit Question'}                       = 'Upravit Otázky';
-    $Self->{Translation}->{'go back to questions'}                = 'vrátit se zpět k otázkám';
-    $Self->{Translation}->{'Question:'}                           = 'Otázka:';
-    $Self->{Translation}->{'Possible Answers For'}                = 'Možné Odpovědi pro';
-    $Self->{Translation}->{'Add Answer'}                          = 'Přidat Odpověď';
+    $Self->{Translation}->{'Close this window'} = '';
+    $Self->{Translation}->{'Edit Question'} = 'Upravit Otázky';
+    $Self->{Translation}->{'go back to questions'} = 'vrátit se zpět k otázkám';
+    $Self->{Translation}->{'Question:'} = 'Otázka:';
+    $Self->{Translation}->{'Possible Answers For'} = 'Možné Odpovědi pro';
+    $Self->{Translation}->{'Add Answer'} = 'Přidat Odpověď';
     $Self->{Translation}->{'No answers saved for this question.'} = 'Otázka nemá definované odpovědi.';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
         '';
-    $Self->{Translation}->{'Edit Answer'}              = 'Upravit Odpověď';
+    $Self->{Translation}->{'Edit Answer'} = 'Upravit Odpověď';
     $Self->{Translation}->{'go back to edit question'} = 'vrátit se zpět k otázce';
-    $Self->{Translation}->{'Answer:'}                  = 'Odpověď:';
+    $Self->{Translation}->{'Answer:'} = 'Odpověď:';
 
     # Template: AgentSurveyOverviewNavBar
     $Self->{Translation}->{'Survey overview options'} = 'Nastavení přehledu průzkumu';
-    $Self->{Translation}->{
-        'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'
-        }
-        =
+    $Self->{Translation}->{'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'} =
         '';
-    $Self->{Translation}->{'Survey Create Time'}           = 'Čas vytvoření Průzkumu';
-    $Self->{Translation}->{'No restriction'}               = '';
+    $Self->{Translation}->{'Survey Create Time'} = 'Čas vytvoření Průzkumu';
+    $Self->{Translation}->{'No restriction'} = '';
     $Self->{Translation}->{'Only surveys created between'} = 'Pouze průzkumy vytvořené mezi';
-    $Self->{Translation}->{'Max. shown surveys per page'}  = 'Maximum průzkumů na stránku';
+    $Self->{Translation}->{'Max. shown surveys per page'} = 'Maximum průzkumů na stránku';
 
     # Template: AgentSurveyOverviewSmall
-    $Self->{Translation}->{'Notification Sender'}  = 'Notifikace Odesílatel';
+    $Self->{Translation}->{'Notification Sender'} = 'Notifikace Odesílatel';
     $Self->{Translation}->{'Notification Subject'} = 'Notifikace Předmět';
-    $Self->{Translation}->{'Changed By'}           = 'Změněno řešitelem';
+    $Self->{Translation}->{'Changed By'} = 'Změněno řešitelem';
 
     # Template: AgentSurveyStats
-    $Self->{Translation}->{'Stats Overview of'}         = '';
-    $Self->{Translation}->{'Requests Table'}            = '';
-    $Self->{Translation}->{'Select all requests'}       = '';
-    $Self->{Translation}->{'Send Time'}                 = '';
-    $Self->{Translation}->{'Vote Time'}                 = '';
-    $Self->{Translation}->{'Select this request'}       = '';
-    $Self->{Translation}->{'See Details'}               = '';
-    $Self->{Translation}->{'Delete stats'}              = '';
-    $Self->{Translation}->{'Survey Stat Details'}       = '';
+    $Self->{Translation}->{'Stats Overview of'} = '';
+    $Self->{Translation}->{'Requests Table'} = '';
+    $Self->{Translation}->{'Select all requests'} = '';
+    $Self->{Translation}->{'Send Time'} = '';
+    $Self->{Translation}->{'Vote Time'} = '';
+    $Self->{Translation}->{'Select this request'} = '';
+    $Self->{Translation}->{'See Details'} = '';
+    $Self->{Translation}->{'Delete stats'} = '';
+    $Self->{Translation}->{'Survey Stat Details'} = '';
     $Self->{Translation}->{'go back to stats overview'} = '';
-    $Self->{Translation}->{'Previous vote'}             = '';
-    $Self->{Translation}->{'Next vote'}                 = '';
+    $Self->{Translation}->{'Previous vote'} = '';
+    $Self->{Translation}->{'Next vote'} = '';
 
     # Template: AgentSurveyZoom
-    $Self->{Translation}->{'Survey Information'}   = '';
-    $Self->{Translation}->{'Sent requests'}        = '';
-    $Self->{Translation}->{'Received surveys'}     = '';
-    $Self->{Translation}->{'Survey Details'}       = '';
-    $Self->{Translation}->{'Ticket Services'}      = '';
+    $Self->{Translation}->{'Survey Information'} = '';
+    $Self->{Translation}->{'Sent requests'} = '';
+    $Self->{Translation}->{'Received surveys'} = '';
+    $Self->{Translation}->{'Survey Details'} = '';
+    $Self->{Translation}->{'Ticket Services'} = '';
     $Self->{Translation}->{'Survey Results Graph'} = '';
-    $Self->{Translation}->{'No stat results.'}     = '';
+    $Self->{Translation}->{'No stat results.'} = '';
 
     # Template: PublicSurvey
-    $Self->{Translation}->{'Survey'}                        = '';
+    $Self->{Translation}->{'Survey'} = '';
     $Self->{Translation}->{'Please answer these questions'} = '';
-    $Self->{Translation}->{'Show my answers'}               = '';
-    $Self->{Translation}->{'These are your answers'}        = '';
-    $Self->{Translation}->{'Survey Title'}                  = '';
+    $Self->{Translation}->{'Show my answers'} = '';
+    $Self->{Translation}->{'These are your answers'} = '';
+    $Self->{Translation}->{'Survey Title'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyAdd.pm
     $Self->{Translation}->{'Add New Survey'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEdit.pm
     $Self->{Translation}->{'You have no permission for this survey!'} = '';
-    $Self->{Translation}->{'No SurveyID is given!'}                   = '';
-    $Self->{Translation}->{'Survey Edit'}                             = '';
+    $Self->{Translation}->{'No SurveyID is given!'} = '';
+    $Self->{Translation}->{'Survey Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
-    $Self->{Translation}->{'You have no permission for this survey or question!'}         = '';
+    $Self->{Translation}->{'You have no permission for this survey or question!'} = '';
     $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = '';
-    $Self->{Translation}->{'Survey Edit Questions'}                                       = '';
-    $Self->{Translation}->{'Yes/No'}                                                      = 'Ano/Ne';
-    $Self->{Translation}->{'Radio (List)'}                                                = '';
-    $Self->{Translation}->{'Checkbox (List)'}                                             = '';
-    $Self->{Translation}->{'Net Promoter Score'}                                          = '';
-    $Self->{Translation}->{'Question Type'}                                               = 'Typ Otázky';
-    $Self->{Translation}->{'Complete'}                                                    = 'Dokončené';
-    $Self->{Translation}->{'Incomplete'}                                                  = 'Nedokončené';
-    $Self->{Translation}->{'Question Edit'}                                               = '';
-    $Self->{Translation}->{'Answer Edit'}                                                 = '';
+    $Self->{Translation}->{'Survey Edit Questions'} = '';
+    $Self->{Translation}->{'Yes/No'} = 'Ano/Ne';
+    $Self->{Translation}->{'Radio (List)'} = '';
+    $Self->{Translation}->{'Checkbox (List)'} = '';
+    $Self->{Translation}->{'Net Promoter Score'} = '';
+    $Self->{Translation}->{'Question Type'} = 'Typ Otázky';
+    $Self->{Translation}->{'Complete'} = 'Dokončené';
+    $Self->{Translation}->{'Incomplete'} = 'Nedokončené';
+    $Self->{Translation}->{'Question Edit'} = '';
+    $Self->{Translation}->{'Answer Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyStats.pm
-    $Self->{Translation}->{'Stats Overview'}                                          = '';
+    $Self->{Translation}->{'Stats Overview'} = '';
     $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = '';
-    $Self->{Translation}->{'Stats Detail'}                                            = '';
+    $Self->{Translation}->{'Stats Detail'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
     $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = '';
     $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
-    $Self->{Translation}->{'Status changed.'}                              = '';
-    $Self->{Translation}->{'- No queue selected -'}                        = '';
-    $Self->{Translation}->{'- No ticket type selected -'}                  = '';
-    $Self->{Translation}->{'- No ticket service selected -'}               = '';
-    $Self->{Translation}->{'- Change Status -'}                            = '';
-    $Self->{Translation}->{'Master'}                                       = '';
-    $Self->{Translation}->{'Invalid'}                                      = 'Chybný';
-    $Self->{Translation}->{'New Status'}                                   = 'Nový Status';
-    $Self->{Translation}->{'Survey Description'}                           = 'Popis Průzkumu';
-    $Self->{Translation}->{'answered'}                                     = 'odpovězeno';
-    $Self->{Translation}->{'not answered'}                                 = 'nezodpovězeno';
+    $Self->{Translation}->{'Status changed.'} = '';
+    $Self->{Translation}->{'- No queue selected -'} = '';
+    $Self->{Translation}->{'- No ticket type selected -'} = '';
+    $Self->{Translation}->{'- No ticket service selected -'} = '';
+    $Self->{Translation}->{'- Change Status -'} = '';
+    $Self->{Translation}->{'Master'} = '';
+    $Self->{Translation}->{'Invalid'} = 'Chybný';
+    $Self->{Translation}->{'New Status'} = 'Nový Status';
+    $Self->{Translation}->{'Survey Description'} = 'Popis Průzkumu';
+    $Self->{Translation}->{'answered'} = 'odpovězeno';
+    $Self->{Translation}->{'not answered'} = 'nezodpovězeno';
 
     # Perl Module: Kernel/Modules/PublicSurvey.pm
     $Self->{Translation}->{'Thank you for your feedback.'} = '';
-    $Self->{Translation}->{'The survey is finished.'}      = '';
-    $Self->{Translation}->{'Survey Message!'}              = '';
-    $Self->{Translation}->{'Module not enabled.'}          = '';
+    $Self->{Translation}->{'The survey is finished.'} = '';
+    $Self->{Translation}->{'Survey Message!'} = '';
+    $Self->{Translation}->{'Module not enabled.'} = '';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
         '';
-    $Self->{Translation}->{'Survey Error!'}       = '';
+    $Self->{Translation}->{'Survey Error!'} = '';
     $Self->{Translation}->{'Invalid survey key.'} = '';
     $Self->{Translation}->{'The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken.'} =
         '';
-    $Self->{Translation}->{'Survey Vote'}                           = '';
-    $Self->{Translation}->{'Survey Vote Data'}                      = '';
+    $Self->{Translation}->{'Survey Vote'} = '';
+    $Self->{Translation}->{'Survey Vote Data'} = '';
     $Self->{Translation}->{'You have already answered the survey.'} = '';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
@@ -176,104 +173,151 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this answer?'} = '';
 
     # SysConfig
-    $Self->{Translation}->{'A Survey Module.'}                   = '';
-    $Self->{Translation}->{'A module to edit survey questions.'} = '';
-    $Self->{Translation}->{'All parameters for the Survey object in the agent interface.'} =
+    $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =
         '';
-    $Self->{Translation}->{
-        'Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail.'
-        } =
+    $Self->{Translation}->{'Access repos via http or https.'} = '';
+    $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = '';
+    $Self->{Translation}->{'Backend module registration for the config conflict check module.'} =
         '';
-    $Self->{Translation}->{'Default body for the notification email to customers about new survey.'} =
+    $Self->{Translation}->{'Backend module registration for the file conflict check module.'} =
         '';
-    $Self->{Translation}->{'Default sender for the notification email to customers about new survey.'} =
+    $Self->{Translation}->{'Backend module registration for the function redefine check module.'} =
         '';
-    $Self->{Translation}->{'Default subject for the notification email to customers about new survey.'} =
+    $Self->{Translation}->{'Backend module registration for the manual set module.'} = '';
+    $Self->{Translation}->{'Block hooks to be created for BS ad removal.'} = '';
+    $Self->{Translation}->{'Block hooks to be created for package manager output filter.'} =
         '';
-    $Self->{Translation}->{'Defines an overview module to show the small view of a survey list.'} =
+    $Self->{Translation}->{'Branch View commit limit'} = '';
+    $Self->{Translation}->{'CodePolicy'} = '';
+    $Self->{Translation}->{'Commit limit per page for Branch view screen'} = '';
+    $Self->{Translation}->{'Create analysis file'} = '';
+    $Self->{Translation}->{'Creates a analysis file from this ticket and sends to Znuny.'} =
         '';
-    $Self->{Translation}
-        ->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
+    $Self->{Translation}->{'Creates a analysis file from this ticket.'} = '';
+    $Self->{Translation}->{'Define private addon repos.'} = '';
+    $Self->{Translation}->{'Defines the filter that processes the HTML templates.'} = '';
+    $Self->{Translation}->{'Defines the test module for checking code policy.'} = '';
+    $Self->{Translation}->{'Definition of GIT clone/push URL Prefix.'} = '';
+    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         '';
-    $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
+    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         '';
-    $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
+    $Self->{Translation}->{'Definition of external MD5 sums (key => MD5, Value => Vendor, PackageName, Version, Date).'} =
         '';
-    $Self->{Translation}->{
-        'Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' setting.'
-        }
-        =
+    $Self->{Translation}->{'Definition of mappings between public repository requests and internal OPMS repositories.'} =
         '';
-    $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
+    $Self->{Translation}->{'Definition of package states.'} = '';
+    $Self->{Translation}->{'Definition of renamed OPMS packages.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to cache repositories.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to store temporary data.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to store working copies.'} = '';
+    $Self->{Translation}->{'Disable online repositories.'} = '';
+    $Self->{Translation}->{'Do not log git ssh connection authorization results for these users. Useful for automated stuff.'} =
         '';
-    $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
+    $Self->{Translation}->{'Dynamic Fields Screens'} = '';
+    $Self->{Translation}->{'DynamicFieldScreen'} = '';
+    $Self->{Translation}->{'Export all available public keys to authorized_keys file.'} = '';
+    $Self->{Translation}->{'Export all relevant releases to ftp server.'} = '';
+    $Self->{Translation}->{'Frontend module registration for the OPMS object in the agent interface.'} =
         '';
-    $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = '';
-    $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepository object in the public interface.'} =
         '';
-    $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepositoryLookup object in the public interface.'} =
         '';
-    $Self->{Translation}->{'Determines if the statistics module may generate survey lists.'} =
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSTestBuild object in the public interface.'} =
         '';
-    $Self->{Translation}->{'Edit survey general information.'} = '';
-    $Self->{Translation}->{'Edit survey questions.'}           = '';
-    $Self->{Translation}->{
-        'Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time.'
-        }
-        =
+    $Self->{Translation}->{'Frontend module registration for the PublicPackageVerification object in the public interface.'} =
         '';
-    $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = '';
-    $Self->{Translation}->{'Enable or disable the send condition check for the ticket type.'} =
+    $Self->{Translation}->{'Frontend module registration for the admin interface.'} = '';
+    $Self->{Translation}->{'GIT Author registration.'} = '';
+    $Self->{Translation}->{'Generate HTML comment hooks for the specified blocks so that filters can use them.'} =
         '';
-    $Self->{Translation}->{'Frontend module registration for survey add in the agent interface.'} =
+    $Self->{Translation}->{'Generate documentations once per night.'} = '';
+    $Self->{Translation}->{'Git'} = '';
+    $Self->{Translation}->{'Git Management'} = '';
+    $Self->{Translation}->{'Git Repository'} = '';
+    $Self->{Translation}->{'Group, whose members have delete admin permissions in OPMS.'} = '';
+    $Self->{Translation}->{'Group, whose members have repository admin permissions in OPMS.'} =
         '';
-    $Self->{Translation}->{'Frontend module registration for survey edit in the agent interface.'} =
+    $Self->{Translation}->{'Group, whose members will see CI test result information in OPMS screens.'} =
         '';
-    $Self->{Translation}->{'Frontend module registration for survey stats in the agent interface.'} =
+    $Self->{Translation}->{'Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface.'} =
         '';
-    $Self->{Translation}->{'Frontend module registration for survey zoom in the agent interface.'} =
+    $Self->{Translation}->{'Groups which will be set during git project creation processes while adding OPMS repositories.'} =
         '';
-    $Self->{Translation}->{'Frontend module registration for the PublicSurvey object in the public Survey area.'} =
+    $Self->{Translation}->{'Manage dynamic field in screens.'} = '';
+    $Self->{Translation}->{'Manage your public SSH key(s) for Git access here. Make sure to save this preference when you add a new key.'} =
         '';
-    $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = '';
-    $Self->{Translation}->{'Limit.'}                                                  = '';
-    $Self->{Translation}->{'Parameters for the pages (in which the surveys are shown) of the small survey overview.'} =
+    $Self->{Translation}->{'Module to generate statistics about the added code lines.'} = '';
+    $Self->{Translation}->{'Module to generate statistics about the growth of code.'} = '';
+    $Self->{Translation}->{'Module to generate statistics about the number of git commits.'} =
         '';
-    $Self->{Translation}->{'Public Survey.'} = '';
-    $Self->{Translation}->{
-        'Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of \'Task###SurveyRequestsDelete\' setting.'
-        }
-        =
+    $Self->{Translation}->{'Module to generate statistics about the removed code lines.'} = '';
+    $Self->{Translation}->{'OPMS'} = '';
+    $Self->{Translation}->{'Only users who have rw permissions in one of these groups may access git.'} =
         '';
-    $Self->{Translation}->{'Shows a link in the menu to edit a survey in its zoom view of the agent interface.'} =
+    $Self->{Translation}->{'Option to set a package compatibility manually.'} = '';
+    $Self->{Translation}->{'Parameters for the pages in the BranchView screen.'} = '';
+    $Self->{Translation}->{'Pre-Definition of the \'GITProjectName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         '';
-    $Self->{Translation}->{'Shows a link in the menu to edit survey questions in its zoom view of the agent interface.'} =
+    $Self->{Translation}->{'Pre-Definition of the \'GITRepositoryName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         '';
-    $Self->{Translation}->{'Shows a link in the menu to go back in the survey zoom view of the agent interface.'} =
+    $Self->{Translation}->{'Pre-Definition of the \'PackageDeprecated\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         '';
-    $Self->{Translation}->{'Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface.'} =
+    $Self->{Translation}->{'Recipients that will be informed by email in case of errors.'} =
         '';
-    $Self->{Translation}->{'Stats Details'}                                               = '';
-    $Self->{Translation}->{'Survey Add Module.'}                                          = '';
-    $Self->{Translation}->{'Survey Edit Module.'}                                         = '';
-    $Self->{Translation}->{'Survey Overview "Small" Limit'}                               = '';
-    $Self->{Translation}->{'Survey Stats Module.'}                                        = '';
-    $Self->{Translation}->{'Survey Zoom Module.'}                                         = '';
-    $Self->{Translation}->{'Survey limit per page for Survey Overview "Small".'}          = '';
-    $Self->{Translation}->{'Surveys will not be sent to the configured email addresses.'} = '';
-    $Self->{Translation}->{'The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#.'} =
+    $Self->{Translation}->{'SSH Keys for Git Access'} = '';
+    $Self->{Translation}->{'Send analysis file'} = '';
+    $Self->{Translation}->{'Sets the git clone address to be used in repository listings.'} =
         '';
-    $Self->{Translation}->{'Ticket event module to send automatically survey email requests to customers if a ticket is closed.'} =
+    $Self->{Translation}->{'Sets the home directory for git repositories.'} = '';
+    $Self->{Translation}->{'Sets the path for the BugzillaAddComment post receive script location.'} =
         '';
-    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = '';
-    $Self->{Translation}->{'Trigger sending delayed survey requests.'}                   = '';
-    $Self->{Translation}->{'Zoom into statistics details.'}                              = '';
+    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
+        '';
+    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
+        '';
+    $Self->{Translation}->{'Show latest commits in git repositories.'} = '';
+    $Self->{Translation}->{'Shows a link in the menu to go create a unit test from the current ticket.'} =
+        '';
+    $Self->{Translation}->{'Synchronize OPMS tables with a remote database.'} = '';
+    $Self->{Translation}->{'The minimum version of the sphinx library.'} = '';
+    $Self->{Translation}->{'The name of the sphinx theme to be used.'} = '';
+    $Self->{Translation}->{'The path to the OTRS CSS file (relative below the static path).'} =
+        '';
+    $Self->{Translation}->{'The path to the OTRS logo (relative below the static path).'} = '';
+    $Self->{Translation}->{'The path to the static folder, containing images and css files.'} =
+        '';
+    $Self->{Translation}->{'The path to the theme folder, containing the sphinx themes.'} = '';
+    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable default columns.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable dynamic fields.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines if only valids or all (invalids) dynamic fields should be shown.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines if the OTRS package verification should be active or disabled. If disabled all packages are shown as verified. It\'s still recommended to use only verified packages.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig \'Znuny4OTRSRepoType\'.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers a Output post-filter to extend package verification.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers an OutputFilter module that removes OTRS Business Solution TM advertisements.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers an output filter to hide online repository selection in package manager.'} =
+        '';
+    $Self->{Translation}->{'Tidy unprocessed release that not passed test pomules checks for a long time.'} =
+        '';
+    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to execute force pushes \'git push --force\'.'} =
+        '';
+    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management.'} =
+        '';
+
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
-        'Do you really want to delete this answer?',
-        'Do you really want to delete this question? ALL associated data will be LOST!',
-        'Settings',
-        'Submit',
+    'Do you really want to delete this answer?',
+    'Do you really want to delete this question? ALL associated data will be LOST!',
+    'Settings',
+    'Submit',
     );
 
 }
