@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -24,257 +24,300 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'Create New Survey'}                                     = 'Napravi novu anketu';
-    $Self->{Translation}->{'Introduction'}                                          = 'Uvod';
-    $Self->{Translation}->{'Survey Introduction'}                                   = 'Uvod u anketu';
-    $Self->{Translation}->{'Notification Body'}                                     = 'Sardžaj obaveštenja';
-    $Self->{Translation}->{'Ticket Types'}                                          = 'Tipovi tiketa';
-    $Self->{Translation}->{'Internal Description'}                                  = 'Interni opis';
-    $Self->{Translation}->{'Customer conditions'}                                   = 'Uslovi klijenta';
-    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = 'Molimo izaberite atribut klijenta za dodavanje uslova.';
-    $Self->{Translation}->{'Public survey key'}                                     = 'Javni ključ ankete';
-    $Self->{Translation}->{'Example survey'}                                        = 'Primer ankete';
+    $Self->{Translation}->{'Create New Survey'} = '';
+    $Self->{Translation}->{'Introduction'} = '';
+    $Self->{Translation}->{'Survey Introduction'} = '';
+    $Self->{Translation}->{'Notification Body'} = '';
+    $Self->{Translation}->{'Ticket Types'} = '';
+    $Self->{Translation}->{'Internal Description'} = '';
+    $Self->{Translation}->{'Customer conditions'} = '';
+    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
+    $Self->{Translation}->{'Public survey key'} = '';
+    $Self->{Translation}->{'Example survey'} = '';
 
     # Template: AgentSurveyEdit
-    $Self->{Translation}->{'Edit General Info'} = 'Uredi opšte informacije';
+    $Self->{Translation}->{'Edit General Info'} = '';
 
     # Template: AgentSurveyEditQuestions
-    $Self->{Translation}->{'Edit Questions'}                      = 'Uredi pitanja';
-    $Self->{Translation}->{'You are here'}                        = 'Vi ste ovde';
-    $Self->{Translation}->{'Survey Questions'}                    = 'Anketna pitanja';
-    $Self->{Translation}->{'Add Question'}                        = 'Dodaj pitanje';
-    $Self->{Translation}->{'Type the question'}                   = 'Unesi pitanje';
-    $Self->{Translation}->{'Answer required'}                     = 'Obavezan odgovor';
-    $Self->{Translation}->{'No questions saved for this survey.'} = 'Za ovu anketu nisu sačuvana pitanja.';
-    $Self->{Translation}->{'Question'}                            = 'Pitanje';
-    $Self->{Translation}->{'Answer Required'}                     = 'Obavezan odgovor';
+    $Self->{Translation}->{'Edit Questions'} = '';
+    $Self->{Translation}->{'You are here'} = '';
+    $Self->{Translation}->{'Survey Questions'} = '';
+    $Self->{Translation}->{'Add Question'} = '';
+    $Self->{Translation}->{'Type the question'} = '';
+    $Self->{Translation}->{'Answer required'} = '';
+    $Self->{Translation}->{'No questions saved for this survey.'} = '';
+    $Self->{Translation}->{'Question'} = '';
+    $Self->{Translation}->{'Answer Required'} = '';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
-        'Kada završite sa uređivanjem anketnih pitanja samo zatvorite ovaj prozor.';
-    $Self->{Translation}->{'Close this window'}                   = 'Zatvori ovaj prozor';
-    $Self->{Translation}->{'Edit Question'}                       = 'Uredi pitanje';
-    $Self->{Translation}->{'go back to questions'}                = 'nazad na pitanja';
-    $Self->{Translation}->{'Question:'}                           = 'Pitanje:';
-    $Self->{Translation}->{'Possible Answers For'}                = 'Mogući odgovori za';
-    $Self->{Translation}->{'Add Answer'}                          = 'Dodaj odgovor';
-    $Self->{Translation}->{'No answers saved for this question.'} = 'Za ovo pitanje nisu sačuvani odgovori.';
+        '';
+    $Self->{Translation}->{'Close this window'} = '';
+    $Self->{Translation}->{'Edit Question'} = '';
+    $Self->{Translation}->{'go back to questions'} = '';
+    $Self->{Translation}->{'Question:'} = '';
+    $Self->{Translation}->{'Possible Answers For'} = '';
+    $Self->{Translation}->{'Add Answer'} = '';
+    $Self->{Translation}->{'No answers saved for this question.'} = '';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
-        'Ovo nema više odgovora, prostor za tekst će biti prikazan.';
-    $Self->{Translation}->{'Edit Answer'}              = 'Uredi odgovor';
-    $Self->{Translation}->{'go back to edit question'} = 'nazad na uređivanje pitanja';
-    $Self->{Translation}->{'Answer:'}                  = 'Odgovor:';
+        '';
+    $Self->{Translation}->{'Edit Answer'} = '';
+    $Self->{Translation}->{'go back to edit question'} = '';
+    $Self->{Translation}->{'Answer:'} = '';
 
     # Template: AgentSurveyOverviewNavBar
-    $Self->{Translation}->{'Survey overview options'} = 'Podešavanja pregleda ankete';
-    $Self->{Translation}->{
-        'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'
-        }
-        =
-        'Pretrage u atributima Number, Title, Introduction, Description, NotificationSender, NotificationSubject i NotificationBody, redefiniu druge atribute sa istim imenom.';
-    $Self->{Translation}->{'Survey Create Time'}           = 'Vreme kreiranja ankete';
-    $Self->{Translation}->{'No restriction'}               = 'Bez ograničenja';
-    $Self->{Translation}->{'Only surveys created between'} = 'Samo ankete kreirane između';
-    $Self->{Translation}->{'Max. shown surveys per page'}  = 'Maksimum prikazanih anketa po strani';
+    $Self->{Translation}->{'Survey overview options'} = '';
+    $Self->{Translation}->{'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'} =
+        '';
+    $Self->{Translation}->{'Survey Create Time'} = '';
+    $Self->{Translation}->{'No restriction'} = '';
+    $Self->{Translation}->{'Only surveys created between'} = '';
+    $Self->{Translation}->{'Max. shown surveys per page'} = '';
 
     # Template: AgentSurveyOverviewSmall
-    $Self->{Translation}->{'Notification Sender'}  = 'Pošiljaoc obaveštenja';
-    $Self->{Translation}->{'Notification Subject'} = 'Predmet obaveštenja';
-    $Self->{Translation}->{'Changed By'}           = 'Menjao';
+    $Self->{Translation}->{'Notification Sender'} = '';
+    $Self->{Translation}->{'Notification Subject'} = '';
+    $Self->{Translation}->{'Changed By'} = '';
 
     # Template: AgentSurveyStats
-    $Self->{Translation}->{'Stats Overview of'}         = 'Pregled statistike za';
-    $Self->{Translation}->{'Requests Table'}            = 'Tabela zahteva';
-    $Self->{Translation}->{'Select all requests'}       = 'Izaberi sve zahteve';
-    $Self->{Translation}->{'Send Time'}                 = 'Vreme slanja';
-    $Self->{Translation}->{'Vote Time'}                 = 'Vreme glasanja';
-    $Self->{Translation}->{'Select this request'}       = 'Izaberi ovaj zahtev';
-    $Self->{Translation}->{'See Details'}               = 'Vidi detalje';
-    $Self->{Translation}->{'Delete stats'}              = 'Obriši statistike';
-    $Self->{Translation}->{'Survey Stat Details'}       = 'Detalji statistike ankete';
-    $Self->{Translation}->{'go back to stats overview'} = 'idi nazad na pregled statistike';
-    $Self->{Translation}->{'Previous vote'}             = 'Prethodni glas';
-    $Self->{Translation}->{'Next vote'}                 = 'Sledeći glas';
+    $Self->{Translation}->{'Stats Overview of'} = '';
+    $Self->{Translation}->{'Requests Table'} = '';
+    $Self->{Translation}->{'Select all requests'} = '';
+    $Self->{Translation}->{'Send Time'} = '';
+    $Self->{Translation}->{'Vote Time'} = '';
+    $Self->{Translation}->{'Select this request'} = '';
+    $Self->{Translation}->{'See Details'} = '';
+    $Self->{Translation}->{'Delete stats'} = '';
+    $Self->{Translation}->{'Survey Stat Details'} = '';
+    $Self->{Translation}->{'go back to stats overview'} = '';
+    $Self->{Translation}->{'Previous vote'} = '';
+    $Self->{Translation}->{'Next vote'} = '';
 
     # Template: AgentSurveyZoom
-    $Self->{Translation}->{'Survey Information'}   = 'Informacije o anketi';
-    $Self->{Translation}->{'Sent requests'}        = 'Poslati zahtevi';
-    $Self->{Translation}->{'Received surveys'}     = 'Primljene ankete';
-    $Self->{Translation}->{'Survey Details'}       = 'Detalji ankete';
-    $Self->{Translation}->{'Ticket Services'}      = 'Usluge za tiket';
-    $Self->{Translation}->{'Survey Results Graph'} = 'Grafikon rezultata ankete';
-    $Self->{Translation}->{'No stat results.'}     = 'Nema statistike rezultata.';
+    $Self->{Translation}->{'Survey Information'} = '';
+    $Self->{Translation}->{'Sent requests'} = '';
+    $Self->{Translation}->{'Received surveys'} = '';
+    $Self->{Translation}->{'Survey Details'} = '';
+    $Self->{Translation}->{'Ticket Services'} = '';
+    $Self->{Translation}->{'Survey Results Graph'} = '';
+    $Self->{Translation}->{'No stat results.'} = '';
 
     # Template: PublicSurvey
-    $Self->{Translation}->{'Survey'}                        = 'Anketa';
-    $Self->{Translation}->{'Please answer these questions'} = 'Molimo da odgovorite na ova pitanja';
-    $Self->{Translation}->{'Show my answers'}               = 'Pokaži moje odgovore';
-    $Self->{Translation}->{'These are your answers'}        = 'Ovo su vaši odgovori';
-    $Self->{Translation}->{'Survey Title'}                  = 'Naslov ankete';
+    $Self->{Translation}->{'Survey'} = '';
+    $Self->{Translation}->{'Please answer these questions'} = '';
+    $Self->{Translation}->{'Show my answers'} = '';
+    $Self->{Translation}->{'These are your answers'} = '';
+    $Self->{Translation}->{'Survey Title'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyAdd.pm
-    $Self->{Translation}->{'Add New Survey'} = 'Dodaj novu anketu';
+    $Self->{Translation}->{'Add New Survey'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEdit.pm
-    $Self->{Translation}->{'You have no permission for this survey!'} = 'Nemate dozvolu za ovu anketu!';
-    $Self->{Translation}->{'No SurveyID is given!'}                   = 'Nije dat ID Ankete!';
-    $Self->{Translation}->{'Survey Edit'}                             = 'Uredi anketu';
+    $Self->{Translation}->{'You have no permission for this survey!'} = '';
+    $Self->{Translation}->{'No SurveyID is given!'} = '';
+    $Self->{Translation}->{'Survey Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
-    $Self->{Translation}->{'You have no permission for this survey or question!'}         = 'Nemate dozvolu za ovu anketu ili pitanje!';
-    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = 'Nemate dozvolu za ovu anketu, pitanje ili odgovor!';
-    $Self->{Translation}->{'Survey Edit Questions'}                                       = 'Uredi anketna pitanja';
-    $Self->{Translation}->{'Yes/No'}                                                      = 'Da/Ne';
-    $Self->{Translation}->{'Radio (List)'}                                                = 'Dugme (Lista)';
-    $Self->{Translation}->{'Checkbox (List)'}                                             = 'Polje za potvrdu (Lista)';
-    $Self->{Translation}->{'Net Promoter Score'}                                          = 'Ocena promotera';
-    $Self->{Translation}->{'Question Type'}                                               = 'Tip pitanja';
-    $Self->{Translation}->{'Complete'}                                                    = 'Kompletno';
-    $Self->{Translation}->{'Incomplete'}                                                  = 'Nekompletno';
-    $Self->{Translation}->{'Question Edit'}                                               = 'Uredi pitanje';
-    $Self->{Translation}->{'Answer Edit'}                                                 = 'Uredi odgovor';
+    $Self->{Translation}->{'You have no permission for this survey or question!'} = '';
+    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = '';
+    $Self->{Translation}->{'Survey Edit Questions'} = '';
+    $Self->{Translation}->{'Yes/No'} = '';
+    $Self->{Translation}->{'Radio (List)'} = '';
+    $Self->{Translation}->{'Checkbox (List)'} = '';
+    $Self->{Translation}->{'Net Promoter Score'} = '';
+    $Self->{Translation}->{'Question Type'} = '';
+    $Self->{Translation}->{'Complete'} = '';
+    $Self->{Translation}->{'Incomplete'} = '';
+    $Self->{Translation}->{'Question Edit'} = '';
+    $Self->{Translation}->{'Answer Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyStats.pm
-    $Self->{Translation}->{'Stats Overview'}                                          = 'Pregled statistike';
-    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = 'Nemate dozvolu za ovu anketu ili detalje statistike!';
-    $Self->{Translation}->{'Stats Detail'}                                            = 'Detalj statistike';
+    $Self->{Translation}->{'Stats Overview'} = '';
+    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = '';
+    $Self->{Translation}->{'Stats Detail'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
-    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Ne može se postaviti novi status! Nema definisanih pitanja.';
-    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = 'Ne može se postaviti novi status! Pitanja su nepotpuna.';
-    $Self->{Translation}->{'Status changed.'}                              = 'Status promenjen.';
-    $Self->{Translation}->{'- No queue selected -'}                        = '- Nije izabran red -';
-    $Self->{Translation}->{'- No ticket type selected -'}                  = '- Nije izabran tip tiketa -';
-    $Self->{Translation}->{'- No ticket service selected -'}               = '- Nije izabran servis tiketa -';
-    $Self->{Translation}->{'- Change Status -'}                            = '- Promeni status -';
-    $Self->{Translation}->{'Master'}                                       = 'Glavno';
-    $Self->{Translation}->{'Invalid'}                                      = 'Nevažeći';
-    $Self->{Translation}->{'New Status'}                                   = 'Novi status';
-    $Self->{Translation}->{'Survey Description'}                           = 'Opis ankete';
-    $Self->{Translation}->{'answered'}                                     = 'odgovoreno';
-    $Self->{Translation}->{'not answered'}                                 = 'nije odgovoreno';
+    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = '';
+    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
+    $Self->{Translation}->{'Status changed.'} = '';
+    $Self->{Translation}->{'- No queue selected -'} = '';
+    $Self->{Translation}->{'- No ticket type selected -'} = '';
+    $Self->{Translation}->{'- No ticket service selected -'} = '';
+    $Self->{Translation}->{'- Change Status -'} = '';
+    $Self->{Translation}->{'Master'} = '';
+    $Self->{Translation}->{'Invalid'} = '';
+    $Self->{Translation}->{'New Status'} = '';
+    $Self->{Translation}->{'Survey Description'} = '';
+    $Self->{Translation}->{'answered'} = '';
+    $Self->{Translation}->{'not answered'} = '';
 
     # Perl Module: Kernel/Modules/PublicSurvey.pm
-    $Self->{Translation}->{'Thank you for your feedback.'} = 'Hvala na vašim odgovorima.';
-    $Self->{Translation}->{'The survey is finished.'}      = 'Anketa je završena.';
-    $Self->{Translation}->{'Survey Message!'}              = 'Poruka ankete!';
-    $Self->{Translation}->{'Module not enabled.'}          = 'Modul nije aktiviran.';
+    $Self->{Translation}->{'Thank you for your feedback.'} = '';
+    $Self->{Translation}->{'The survey is finished.'} = '';
+    $Self->{Translation}->{'Survey Message!'} = '';
+    $Self->{Translation}->{'Module not enabled.'} = '';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
-        'Ova funcionalnost nije omogućena, molimo kontaktirajte vašeg administratora.';
-    $Self->{Translation}->{'Survey Error!'}       = 'Greška u anketi!';
-    $Self->{Translation}->{'Invalid survey key.'} = 'Neispravan ključ ankete.';
+        '';
+    $Self->{Translation}->{'Survey Error!'} = '';
+    $Self->{Translation}->{'Invalid survey key.'} = '';
     $Self->{Translation}->{'The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken.'} =
-        'Uneti ključ ankete je neispravan, ako ste pratili vezu možda je ona nevažeća ili oštećena.';
-    $Self->{Translation}->{'Survey Vote'}                           = 'Glasanje u anketi';
-    $Self->{Translation}->{'Survey Vote Data'}                      = 'Podaci o glasanju u anketi';
-    $Self->{Translation}->{'You have already answered the survey.'} = 'Već ste odgovorili na anketu.';
+        '';
+    $Self->{Translation}->{'Survey Vote'} = '';
+    $Self->{Translation}->{'Survey Vote Data'} = '';
+    $Self->{Translation}->{'You have already answered the survey.'} = '';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
-    $Self->{Translation}->{'Survey List'} = 'Lista anketa';
+    $Self->{Translation}->{'Survey List'} = '';
 
     # JS File: Survey.Agent.SurveyEditQuestions
     $Self->{Translation}->{'Do you really want to delete this question? ALL associated data will be LOST!'} =
-        'Da li zaista želite da obrišete ovo pitanje? SVI povezani podaci će biti IZGUBLJENI!';
-    $Self->{Translation}->{'Do you really want to delete this answer?'} = 'Da li zaista želite da izbrišete ovaj odgovor?';
+        '';
+    $Self->{Translation}->{'Do you really want to delete this answer?'} = '';
 
     # SysConfig
-    $Self->{Translation}->{'A Survey Module.'}                   = 'Anketni modul.';
-    $Self->{Translation}->{'A module to edit survey questions.'} = 'Modul za uređivanje anketnih pitanja.';
-    $Self->{Translation}->{'All parameters for the Survey object in the agent interface.'} =
-        'Svi parametri Objekta ankete u interfejsu operatera.';
-    $Self->{Translation}->{
-        'Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail.'
-        } =
-        'Broj dana posle slanja imejla o anketi za koje istom korisniku neće biti slani novi zahtevi. Ako izaberete 0 imejl o anketi se uvek šalje.';
-    $Self->{Translation}->{'Default body for the notification email to customers about new survey.'} =
-        'Podrazumevani sadržaj imejla obaveštenja o novoj anketi za korisnike.';
-    $Self->{Translation}->{'Default sender for the notification email to customers about new survey.'} =
-        'Podrazumevani pošiljaoc imejla obaveštenja o novom istraživanju za korisnike.';
-    $Self->{Translation}->{'Default subject for the notification email to customers about new survey.'} =
-        'Podrazumevani predmet imejla obaveštenja o novoj anketi za korisnike.';
-    $Self->{Translation}->{'Defines an overview module to show the small view of a survey list.'} =
-        'Definiše modul pregleda za mali prikaz liste anketa. ';
-    $Self->{Translation}
-        ->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
-        'Određuje grupe koje imaju dozvolu da menjaju status ankete. Tabela je podrazumevano prazna i operateri iz svih grupa mogu da menjaju status ankete.';
-    $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
-        'Definiše da li će zahtevi za ankete biti poslati samo pravim klijentima.';
-    $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
-        'Definiše maksimalni broj anketa koji će biti poslat korisniku tokom 30 dana. (0 znači da nema maksimuma, svi zahtevi će biti poslati).';
-    $Self->{Translation}->{
-        'Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' setting.'
-        }
-        =
-        'Definiše broj sati od zatvaranja tiketa za pokretanje slanja ankete. (0 znači da se šalje odmah po zatvaranju). Napomena: odlaganje slanja ankete obavlja „OTOBO ” servis pre aktiviranja „Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend” postavke.';
-    $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
-        'Definiše kolone za listu prilikom pravljenja uslova zahteva (0 => isključeno, 1 => uključeno).';
-    $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
-        'Definiše podrazumevanu visinu okvira za prikaz teksta  za detaljni prikaz elemenata ankete.';
-    $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Definiše grupe (rw) koje mogu da brišu statistike anketa.';
-    $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
-        'Određuje maksimalnu visinu „Richtext” prikaza teksta  za detaljni prikaz elemenata ankete.';
-    $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
-        'Definiše prikazane kolone u pregledu ankete. Ova opcije nema uticaj na pozicije kolona.';
-    $Self->{Translation}->{'Determines if the statistics module may generate survey lists.'} =
-        'Određuje da li modul statistika može generisati liste anketa.';
-    $Self->{Translation}->{'Edit survey general information.'} = 'Uredi opšte informacije o anketi.';
-    $Self->{Translation}->{'Edit survey questions.'}           = 'Uredi anketna pitanja.';
-    $Self->{Translation}->{
-        'Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time.'
-        }
-        =
-        'Uključi ili isključi prikaz ekrana za glasanje na javnom interfejsu radi prikaza rezultata pojedine ankete kada korisnik pokuša da odgovori na upitnik po drugi put.';
-    $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = 'Uključi ili isključi proveru statusa slanja za uslugu.';
-    $Self->{Translation}->{'Enable or disable the send condition check for the ticket type.'} =
-        'Uključi ili isključi proveru statusa slanja za tip tiketa.';
-    $Self->{Translation}->{'Frontend module registration for survey add in the agent interface.'} =
-        'Registracija "Frontend" modula za dodavanje ankete u interfejsu operatera.';
-    $Self->{Translation}->{'Frontend module registration for survey edit in the agent interface.'} =
-        'Registracija "Frontend" modula za izmene ankete u interfejsu operatera.';
-    $Self->{Translation}->{'Frontend module registration for survey stats in the agent interface.'} =
-        'Registracija "Frontend" modula za statistiku ankete u interfejsu operatera.';
-    $Self->{Translation}->{'Frontend module registration for survey zoom in the agent interface.'} =
-        'Registracija "Frontend" modula za detaljni prikaz ankete u interfejsu operatera.';
-    $Self->{Translation}->{'Frontend module registration for the PublicSurvey object in the public Survey area.'} =
-        'Registracija "Frontend" modula za javne anketne objekte ankete u prostoru javnih anketa.';
-    $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = 'Ako se ovaj izraz poklapa, anketa neće biti poslata korisniku.';
-    $Self->{Translation}->{'Limit.'}                                                  = 'Ograničenje.';
-    $Self->{Translation}->{'Parameters for the pages (in which the surveys are shown) of the small survey overview.'} =
-        'Parametri stranica (na kojima su ankete vidljive) na malom prikazu pregleda anketa.';
-    $Self->{Translation}->{'Public Survey.'} = 'Javna anketa.';
-    $Self->{Translation}->{
-        'Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of \'Task###SurveyRequestsDelete\' setting.'
-        }
-        =
-        'Rezultati stariji od podešenog broja dana će biti obrisani. Napomena: rezultate briše OTOBO sistemski servis, po aktivaciji podešavanja \'Task###SurveyRequestsDelete\'.';
-    $Self->{Translation}->{'Shows a link in the menu to edit a survey in its zoom view of the agent interface.'} =
-        'U meniju prikazuje vezu za uređivanje ankete u detaljnom prikazu interfejsa operatera.';
-    $Self->{Translation}->{'Shows a link in the menu to edit survey questions in its zoom view of the agent interface.'} =
-        'U meniju prikazuje vezu za uređivanje anketnih pitanja u detaljnom prikazu interfejsa operatera.';
-    $Self->{Translation}->{'Shows a link in the menu to go back in the survey zoom view of the agent interface.'} =
-        'U meniju prikazuje vezu za povratak u detaljni prikaz ankete u interfejsu operatera.';
-    $Self->{Translation}->{'Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface.'} =
-        'U meniju prikazuje vezu za detaljni prikaz statistike ankete u detaljnom prikazu na interfejsu operatera.';
-    $Self->{Translation}->{'Stats Details'}                                               = 'Detalji statistike';
-    $Self->{Translation}->{'Survey Add Module.'}                                          = 'Modul za dodavanje ankete.';
-    $Self->{Translation}->{'Survey Edit Module.'}                                         = 'Modul za uređivanje ankete.';
-    $Self->{Translation}->{'Survey Overview "Small" Limit'}                               = 'Ograničenje pregleda ankete - „malo”';
-    $Self->{Translation}->{'Survey Stats Module.'}                                        = 'Modul za statistiku ankete.';
-    $Self->{Translation}->{'Survey Zoom Module.'}                                         = 'Modul za detaljni prikaz ankete.';
-    $Self->{Translation}->{'Survey limit per page for Survey Overview "Small".'}          = 'Ograničenje ankete po strani za pregled malog formata.';
-    $Self->{Translation}->{'Surveys will not be sent to the configured email addresses.'} = 'Anketa neće biti poslata na podešenu imejl adresu.';
-    $Self->{Translation}->{'The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#.'} =
-        'Identifikator za anketu, npr. Survey#, MySurvey#. Podrazumevano je Survey#.';
-    $Self->{Translation}->{'Ticket event module to send automatically survey email requests to customers if a ticket is closed.'} =
-        'Modul događaja na tiketu za automatsko slanje imejla o istraživanju korisnicima ako je tiket zatvoren.';
-    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'}
-        = 'Okida brisanje rezultata (uključujući podatke primljenih glasova i poslatih zahteva).';
-    $Self->{Translation}->{'Trigger sending delayed survey requests.'} = 'Okidač odloženog slanja zahteva za anketu.';
-    $Self->{Translation}->{'Zoom into statistics details.'}            = 'Ulaz u detaljni prikaz statistike.';
+    $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =
+        '';
+    $Self->{Translation}->{'Access repos via http or https.'} = '';
+    $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = '';
+    $Self->{Translation}->{'Backend module registration for the config conflict check module.'} =
+        '';
+    $Self->{Translation}->{'Backend module registration for the file conflict check module.'} =
+        '';
+    $Self->{Translation}->{'Backend module registration for the function redefine check module.'} =
+        '';
+    $Self->{Translation}->{'Backend module registration for the manual set module.'} = '';
+    $Self->{Translation}->{'Block hooks to be created for BS ad removal.'} = '';
+    $Self->{Translation}->{'Block hooks to be created for package manager output filter.'} =
+        '';
+    $Self->{Translation}->{'Branch View commit limit'} = 'Ograničenje broja komitova u prikazu grane';
+    $Self->{Translation}->{'CodePolicy'} = '';
+    $Self->{Translation}->{'Commit limit per page for Branch view screen'} = 'Ograničenje broja komitova po strani u ekranu prikaza grane';
+    $Self->{Translation}->{'Create analysis file'} = '';
+    $Self->{Translation}->{'Creates a analysis file from this ticket and sends to Znuny.'} =
+        '';
+    $Self->{Translation}->{'Creates a analysis file from this ticket.'} = '';
+    $Self->{Translation}->{'Define private addon repos.'} = '';
+    $Self->{Translation}->{'Defines the filter that processes the HTML templates.'} = '';
+    $Self->{Translation}->{'Defines the test module for checking code policy.'} = '';
+    $Self->{Translation}->{'Definition of GIT clone/push URL Prefix.'} = 'Definicija adresnog prefiksa za GIT kloniranje i slanje.';
+    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+        'Definicija dinamičkog polja: Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano.';
+    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+        'Definicija dinamičkog polja: Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano.';
+    $Self->{Translation}->{'Definition of external MD5 sums (key => MD5, Value => Vendor, PackageName, Version, Date).'} =
+        'Definicija eksternih MD5 vrednosti (ključ => MD5, vrednost => Vendor, PackageName, Version, Date).';
+    $Self->{Translation}->{'Definition of mappings between public repository requests and internal OPMS repositories.'} =
+        'Mapiranje skladišta u javnim zahtevima sa internim OPMS skladištima.';
+    $Self->{Translation}->{'Definition of package states.'} = 'Definicija stanja paketa.';
+    $Self->{Translation}->{'Definition of renamed OPMS packages.'} = 'Definicija OPMS paketa sa promenjenim imenom.';
+    $Self->{Translation}->{'Directory, which is used by Git to cache repositories.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to store temporary data.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to store working copies.'} = '';
+    $Self->{Translation}->{'Disable online repositories.'} = '';
+    $Self->{Translation}->{'Do not log git ssh connection authorization results for these users. Useful for automated stuff.'} =
+        'Isključi beleženje autorizacija prilikom ostvarivanja Git SSH konekcija za ove korisnike. Korisno za automatizaciju.';
+    $Self->{Translation}->{'Dynamic Fields Screens'} = '';
+    $Self->{Translation}->{'DynamicFieldScreen'} = '';
+    $Self->{Translation}->{'Export all available public keys to authorized_keys file.'} = 'Izvezi sve dostupne javne ključeve u datoteku authorized_keys.';
+    $Self->{Translation}->{'Export all relevant releases to ftp server.'} = 'Izvoz svih relevantnih izdanja na FTP server.';
+    $Self->{Translation}->{'Frontend module registration for the OPMS object in the agent interface.'} =
+        'Modul registracije za OPMS objekat u interfejsu operatera.';
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepository object in the public interface.'} =
+        'Modul registracije za PublicOPMSRepository objekat u javnom interfejsu.';
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepositoryLookup object in the public interface.'} =
+        'Modul registracije za PublicOPMSRepositoryLookup objekat u javnom interfejsu.';
+    $Self->{Translation}->{'Frontend module registration for the PublicOPMSTestBuild object in the public interface.'} =
+        'Modul registracije za PublicOPMSTestBuild objekat u javnom interfejsu.';
+    $Self->{Translation}->{'Frontend module registration for the PublicPackageVerification object in the public interface.'} =
+        'Modul registracije za PublicPackageVerification objekat u javnom interfejsu.';
+    $Self->{Translation}->{'Frontend module registration for the admin interface.'} = '';
+    $Self->{Translation}->{'GIT Author registration.'} = 'Registracija Git autora.';
+    $Self->{Translation}->{'Generate HTML comment hooks for the specified blocks so that filters can use them.'} =
+        '';
+    $Self->{Translation}->{'Generate documentations once per night.'} = '';
+    $Self->{Translation}->{'Git'} = 'Git';
+    $Self->{Translation}->{'Git Management'} = 'Git upravljanje';
+    $Self->{Translation}->{'Git Repository'} = '';
+    $Self->{Translation}->{'Group, whose members have delete admin permissions in OPMS.'} = 'Grupa čiji članovi imaju dozvolu za brisanje u OPMS.';
+    $Self->{Translation}->{'Group, whose members have repository admin permissions in OPMS.'} =
+        'Grupa čiji članovi imaju administratorske dozvole u OPMS.';
+    $Self->{Translation}->{'Group, whose members will see CI test result information in OPMS screens.'} =
+        '';
+    $Self->{Translation}->{'Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface.'} =
+        'Grupe u kojima registrovani korisnik (po korisničkom imenu i lozinci) mora biti član da bi imao dozvolu za kreiranje test izdanja paketa u javnom interfejsu.';
+    $Self->{Translation}->{'Groups which will be set during git project creation processes while adding OPMS repositories.'} =
+        'Grupe koje će biti podešene prilikom kreiranja GIT projekta u slučaju dodavanja OPMS skladišta.';
+    $Self->{Translation}->{'Manage dynamic field in screens.'} = '';
+    $Self->{Translation}->{'Manage your public SSH key(s) for Git access here. Make sure to save this preference when you add a new key.'} =
+        'Uredite svoje javne SSH ključeve za Git pristup. Obratite pažnju da morate sačuvati ovo podešavanje prilikom dodavanja novog ključa.';
+    $Self->{Translation}->{'Module to generate statistics about the added code lines.'} = 'Modul za generisanje statistika o broju dodatih linija koda.';
+    $Self->{Translation}->{'Module to generate statistics about the growth of code.'} = 'Modul za generisanje statistika o uvećanju koda.';
+    $Self->{Translation}->{'Module to generate statistics about the number of git commits.'} =
+        'Modul za generisanje statistika o broju Git komitova.';
+    $Self->{Translation}->{'Module to generate statistics about the removed code lines.'} = 'Modul za generisanje statistika o broju uklonjenih linija koda.';
+    $Self->{Translation}->{'OPMS'} = 'OPMS';
+    $Self->{Translation}->{'Only users who have rw permissions in one of these groups may access git.'} =
+        'Samo korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće Git pristup.';
+    $Self->{Translation}->{'Option to set a package compatibility manually.'} = '';
+    $Self->{Translation}->{'Parameters for the pages in the BranchView screen.'} = 'Parametri za stranice u ekranu prikaza grane.';
+    $Self->{Translation}->{'Pre-Definition of the \'GITProjectName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+        'Predefinisanje dinamičkog polja \'GITProjectName\': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano.';
+    $Self->{Translation}->{'Pre-Definition of the \'GITRepositoryName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+        'Predefinisanje dinamičkog polja \'GITRepositoryName\': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano.';
+    $Self->{Translation}->{'Pre-Definition of the \'PackageDeprecated\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+        'Predefinisanje dinamičkog polja \'PackageDeprecated\': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano.';
+    $Self->{Translation}->{'Recipients that will be informed by email in case of errors.'} =
+        '';
+    $Self->{Translation}->{'SSH Keys for Git Access'} = 'SSH ključevi za Git pristup';
+    $Self->{Translation}->{'Send analysis file'} = '';
+    $Self->{Translation}->{'Sets the git clone address to be used in repository listings.'} =
+        'Definiše adresu za Git kloniranje koja će biti korišćena u prikazu repozitorija.';
+    $Self->{Translation}->{'Sets the home directory for git repositories.'} = 'Definiše direktorijum za Git repozitorije.';
+    $Self->{Translation}->{'Sets the path for the BugzillaAddComment post receive script location.'} =
+        'Definiše putanju do BugzillaAddComment skripta.';
+    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
+        '';
+    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
+        'Definiše putanju do OTRSCodePolicy skripta. Preporučeno je da postoji poseban klon OTRSCodePolicy modula koji se redovno osvežava putem cron.';
+    $Self->{Translation}->{'Show latest commits in git repositories.'} = '';
+    $Self->{Translation}->{'Shows a link in the menu to go create a unit test from the current ticket.'} =
+        '';
+    $Self->{Translation}->{'Synchronize OPMS tables with a remote database.'} = 'Sinhronizacija OPMS tabela sa udaljenom bazom.';
+    $Self->{Translation}->{'The minimum version of the sphinx library.'} = '';
+    $Self->{Translation}->{'The name of the sphinx theme to be used.'} = '';
+    $Self->{Translation}->{'The path to the OTRS CSS file (relative below the static path).'} =
+        '';
+    $Self->{Translation}->{'The path to the OTRS logo (relative below the static path).'} = '';
+    $Self->{Translation}->{'The path to the static folder, containing images and css files.'} =
+        '';
+    $Self->{Translation}->{'The path to the theme folder, containing the sphinx themes.'} = '';
+    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable default columns.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable dynamic fields.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines if only valids or all (invalids) dynamic fields should be shown.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines if the OTRS package verification should be active or disabled. If disabled all packages are shown as verified. It\'s still recommended to use only verified packages.'} =
+        '';
+    $Self->{Translation}->{'This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig \'Znuny4OTRSRepoType\'.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers a Output post-filter to extend package verification.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers an OutputFilter module that removes OTRS Business Solution TM advertisements.'} =
+        '';
+    $Self->{Translation}->{'This configuration registers an output filter to hide online repository selection in package manager.'} =
+        '';
+    $Self->{Translation}->{'Tidy unprocessed release that not passed test pomules checks for a long time.'} =
+        '';
+    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to execute force pushes \'git push --force\'.'} =
+        'Korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće mogućnost izvršavanja komande \'git push --force\'.';
+    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management.'} =
+        'Korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće mogućnost upravljanja projektima. Dodatno pripadnici će imati administracione privilegije za Git upravljanje.';
+
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
-        'Do you really want to delete this answer?',
-        'Do you really want to delete this question? ALL associated data will be LOST!',
-        'Settings',
-        'Submit',
+    'Do you really want to delete this answer?',
+    'Do you really want to delete this question? ALL associated data will be LOST!',
+    'Settings',
+    'Submit',
     );
 
 }
