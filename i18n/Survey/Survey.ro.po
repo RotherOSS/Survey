@@ -654,3 +654,7 @@ msgstr ""
 msgid "Zoom into statistics details."
 msgstr ""
 
+#. Template: AgentSurveyAdd
+msgid "All fields marked with an asterisk (*) are mandatory."
+msgstr ""
+

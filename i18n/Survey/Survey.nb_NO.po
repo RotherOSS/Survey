@@ -1022,3 +1022,7 @@ msgstr ""
 msgid "Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management."
 msgstr ""
 
+#. Template: AgentSurveyAdd
+msgid "All fields marked with an asterisk (*) are mandatory."
+msgstr ""
+
