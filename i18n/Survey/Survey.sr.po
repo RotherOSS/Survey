@@ -12,447 +12,447 @@ msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
-msgstr "Направи нову анкету"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Introduction"
-msgstr "Увод"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Survey Introduction"
-msgstr "Увод у анкету"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Notification Body"
-msgstr "Сарджај обавештења"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Ticket Types"
-msgstr "Типови тикета"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Internal Description"
-msgstr "Интерни опис"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Customer conditions"
-msgstr "Услови клијента"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Please choose a Customer property to add a condition."
-msgstr "Молимо изаберите атрибут клијента за додавање услова."
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Public survey key"
-msgstr "Јавни кључ анкете"
+msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Example survey"
-msgstr "Пример анкете"
+msgstr ""
 
 #. Template: AgentSurveyEdit
 msgid "Edit General Info"
-msgstr "Уреди опште информације"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Edit Questions"
-msgstr "Уреди питања"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "You are here"
-msgstr "Ви сте овде"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Survey Questions"
-msgstr "Анкетна питања"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Add Question"
-msgstr "Додај питање"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Type the question"
-msgstr "Унеси питање"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Answer required"
-msgstr "Обавезан одговор"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "No questions saved for this survey."
-msgstr "За ову анкету нису сачувана питања."
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Question"
-msgstr "Питање"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Answer Required"
-msgstr "Обавезан одговор"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "When you finish to edit the survey questions just close this screen."
-msgstr "Када завршите са уређивањем анкетних питања само затворите овај прозор."
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Close this window"
-msgstr "Затвори овај прозор"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Edit Question"
-msgstr "Уреди питање"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "go back to questions"
-msgstr "назад на питања"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Question:"
-msgstr "Питање:"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Possible Answers For"
-msgstr "Могући одговори за"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Add Answer"
-msgstr "Додај одговор"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "No answers saved for this question."
-msgstr "За ово питање нису сачувани одговори."
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "This doesn't have several answers, a textarea will be displayed."
-msgstr "Ово нема више одговора, простор за текст ће бити приказан."
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Edit Answer"
-msgstr "Уреди одговор"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "go back to edit question"
-msgstr "назад на уређивање питања"
+msgstr ""
 
 #. Template: AgentSurveyEditQuestions
 msgid "Answer:"
-msgstr "Одговор:"
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Survey overview options"
-msgstr "Подешавања прегледа анкете"
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name."
-msgstr "Претраге у атрибутима Number, Title, Introduction, Description, NotificationSender, NotificationSubject и NotificationBody, редефиниу друге атрибуте са истим именом."
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Survey Create Time"
-msgstr "Време креирања анкете"
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "No restriction"
-msgstr "Без ограничења"
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Only surveys created between"
-msgstr "Само анкете креиране између"
+msgstr ""
 
 #. Template: AgentSurveyOverviewNavBar
 msgid "Max. shown surveys per page"
-msgstr "Максимум приказаних анкета по страни"
+msgstr ""
 
 #. Template: AgentSurveyOverviewSmall
 msgid "Notification Sender"
-msgstr "Пошиљаоц обавештења"
+msgstr ""
 
 #. Template: AgentSurveyOverviewSmall
 msgid "Notification Subject"
-msgstr "Предмет обавештења"
+msgstr ""
 
 #. Template: AgentSurveyOverviewSmall
 msgid "Changed By"
-msgstr "Мењао"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Stats Overview of"
-msgstr "Преглед статистике за"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Requests Table"
-msgstr "Табела захтева"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Select all requests"
-msgstr "Изабери све захтеве"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Send Time"
-msgstr "Време слања"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Vote Time"
-msgstr "Време гласања"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Select this request"
-msgstr "Изабери овај захтев"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "See Details"
-msgstr "Види детаље"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Delete stats"
-msgstr "Обриши статистике"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Survey Stat Details"
-msgstr "Детаљи статистике анкете"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "go back to stats overview"
-msgstr "иди назад на преглед статистике"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Previous vote"
-msgstr "Претходни глас"
+msgstr ""
 
 #. Template: AgentSurveyStats
 msgid "Next vote"
-msgstr "Следећи глас"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Survey Information"
-msgstr "Информације о анкети"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Sent requests"
-msgstr "Послати захтеви"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Received surveys"
-msgstr "Примљене анкете"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Survey Details"
-msgstr "Детаљи анкете"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Ticket Services"
-msgstr "Услуге за тикет"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "Survey Results Graph"
-msgstr "Графикон резултата анкете"
+msgstr ""
 
 #. Template: AgentSurveyZoom
 msgid "No stat results."
-msgstr "Нема статистике резултата."
+msgstr ""
 
 #. Template: PublicSurvey
 msgid "Survey"
-msgstr "Анкета"
+msgstr ""
 
 #. Template: PublicSurvey
 msgid "Please answer these questions"
-msgstr "Молимо да одговорите на ова питања"
+msgstr ""
 
 #. Template: PublicSurvey
 msgid "Show my answers"
-msgstr "Покажи моје одговоре"
+msgstr ""
 
 #. Template: PublicSurvey
 msgid "These are your answers"
-msgstr "Ово су ваши одговори"
+msgstr ""
 
 #. Template: PublicSurvey
 msgid "Survey Title"
-msgstr "Наслов анкете"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyAdd.pm
 msgid "Add New Survey"
-msgstr "Додај нову анкету"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "You have no permission for this survey!"
-msgstr "Немате дозволу за ову анкету!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "No SurveyID is given!"
-msgstr "Није дат ИД Анкете!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEdit.pm
 msgid "Survey Edit"
-msgstr "Уреди анкету"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "You have no permission for this survey or question!"
-msgstr "Немате дозволу за ову анкету или питање!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "You have no permission for this survey, question or answer!"
-msgstr "Немате дозволу за ову анкету, питање или одговор!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Survey Edit Questions"
-msgstr "Уреди анкетна питања"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Yes/No"
-msgstr "Да/Не"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Radio (List)"
-msgstr "Дугме (Листа)"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Checkbox (List)"
-msgstr "Поље за потврду (Листа)"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Net Promoter Score"
-msgstr "Оцена промотера"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Question Type"
-msgstr "Тип питања"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Complete"
-msgstr "Комплетно"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Incomplete"
-msgstr "Некомплетно"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Question Edit"
-msgstr "Уреди питање"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
 msgid "Answer Edit"
-msgstr "Уреди одговор"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "Stats Overview"
-msgstr "Преглед статистике"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "You have no permission for this survey or stats detail!"
-msgstr "Немате дозволу за ову анкету или детаље статистике!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "Stats Detail"
-msgstr "Детаљ статистике"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Can't set new status! No questions defined."
-msgstr "Не може се поставити нови статус! Нема дефинисаних питања."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Can't set new status! Questions incomplete."
-msgstr "Не може се поставити нови статус! Питања су непотпуна."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Status changed."
-msgstr "Статус промењен."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "- No queue selected -"
-msgstr "- Није изабран ред -"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "- No ticket type selected -"
-msgstr "- Није изабран тип тикета -"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "- No ticket service selected -"
-msgstr "- Није изабран сервис тикета -"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "- Change Status -"
-msgstr "- Промени статус -"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Master"
-msgstr "Главно"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Invalid"
-msgstr "Неважећи"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "New Status"
-msgstr "Нови статус"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "Survey Description"
-msgstr "Опис анкете"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "answered"
-msgstr "одговорено"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentSurveyZoom.pm
 msgid "not answered"
-msgstr "није одговорено"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Thank you for your feedback."
-msgstr "Хвала на вашим одговорима."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The survey is finished."
-msgstr "Анкета је завршена."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Message!"
-msgstr "Порука анкете!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Module not enabled."
-msgstr "Модул није активиран."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "This functionality is not enabled, please contact your administrator."
-msgstr "Ова фунционалност није омогућена, молимо контактирајте вашег администратора."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Error!"
-msgstr "Грешка у анкети!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Invalid survey key."
-msgstr "Неисправан кључ анкете."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken."
-msgstr "Унети кључ анкете је неисправан, ако сте пратили везу можда је она неважећа или оштећена."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote"
-msgstr "Гласање у анкети"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "Survey Vote Data"
-msgstr "Подаци о гласању у анкети"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/PublicSurvey.pm
 msgid "You have already answered the survey."
-msgstr "Већ сте одговорили на анкету."
+msgstr ""
 
 #. Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
 msgid "Survey List"
-msgstr "Листа анкета"
+msgstr ""
 
 #. JS File: Survey.Agent.SurveyEditQuestions
 msgid "Do you really want to delete this question? ALL associated data will be LOST!"
-msgstr "Да ли заиста желите да обришете ово питање? СВИ повезани подаци ће бити ИЗГУБЉЕНИ!"
+msgstr ""
 
 #. JS File: Survey.Agent.SurveyEditQuestions
 msgid "Do you really want to delete this answer?"
-msgstr "Да ли заиста желите да избришете овај одговор?"
+msgstr ""
 
 #. SysConfig
 msgid "A Survey Module."
@@ -653,4 +653,396 @@ msgstr "Окидач одложеног слања захтева за анке�
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Улаз у детаљни приказ статистике."
+
+#. Template: AgentSurveyAdd
+msgid "All fields marked with an asterisk (*) are mandatory."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the default frontend (HTML) theme to be used by the agents and customers. If you like, you can add your own theme. Please refer the administrator manual located at https://doc.otobo.org/."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the default frontend language. All the possible values are determined by the available language files on the system. These values are listed as the keys in the setting 'DefaultUsedLanguages'."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the parameters for the dashboard backend. \"Cmd\" is used to specify command with parameters. \"Group\" is used to restrict access to the plugin (e. g. Group: admin;group1;group2;). \"Default\" indicates if the plugin is enabled by default or if the user needs to enable it manually. \"CacheTTL\" indicates the cache expiration period in minutes for the plugin. \"Mandatory\" determines if the plugin is always shown and can not be removed by agents. Only works if DashboardBackend::AllowCmdOutput is enabled in Config.pm."
+msgstr ""
+
+#. SysConfig
+msgid "If \"LDAP\" was selected for Customer::AuthModule and you wish to use TLS security to communicate with the LDAP server, the \"verify\" parameter can be specified here. See Net::LDAP::start_tls for more information about the parameter."
+msgstr ""
+
+#. SysConfig
+msgid "Ignores not ticket related attributes."
+msgstr ""
+
+#. SysConfig
+msgid "A precentage value of the minimal translation progress per language, to be usable for documentations."
+msgstr ""
+
+#. SysConfig
+msgid "Access repos via http or https."
+msgstr ""
+
+#. SysConfig
+msgid "Autoloading of Znuny4OTRSRepo extensions."
+msgstr ""
+
+#. SysConfig
+msgid "Backend module registration for the config conflict check module."
+msgstr ""
+
+#. SysConfig
+msgid "Backend module registration for the file conflict check module."
+msgstr ""
+
+#. SysConfig
+msgid "Backend module registration for the function redefine check module."
+msgstr ""
+
+#. SysConfig
+msgid "Backend module registration for the manual set module."
+msgstr ""
+
+#. SysConfig
+msgid "Block hooks to be created for BS ad removal."
+msgstr ""
+
+#. SysConfig
+msgid "Block hooks to be created for package manager output filter."
+msgstr ""
+
+#. SysConfig
+msgid "Branch View commit limit"
+msgstr "Ograničenje broja komitova u prikazu grane"
+
+#. SysConfig
+msgid "CodePolicy"
+msgstr ""
+
+#. SysConfig
+msgid "Commit limit per page for Branch view screen"
+msgstr "Ograničenje broja komitova po strani u ekranu prikaza grane"
+
+#. SysConfig
+msgid "Create analysis file"
+msgstr ""
+
+#. SysConfig
+msgid "Creates a analysis file from this ticket and sends to Znuny."
+msgstr ""
+
+#. SysConfig
+msgid "Creates a analysis file from this ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Define private addon repos."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the filter that processes the HTML templates."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the test module for checking code policy."
+msgstr ""
+
+#. SysConfig
+msgid "Definition of GIT clone/push URL Prefix."
+msgstr "Definicija adresnog prefiksa za GIT kloniranje i slanje."
+
+#. SysConfig
+msgid "Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
+msgstr "Definicija dinamičkog polja: Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano."
+
+#. SysConfig
+msgid "Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
+msgstr "Definicija dinamičkog polja: Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano."
+
+#. SysConfig
+msgid "Definition of external MD5 sums (key => MD5, Value => Vendor, PackageName, Version, Date)."
+msgstr "Definicija eksternih MD5 vrednosti (ključ => MD5, vrednost => Vendor, PackageName, Version, Date)."
+
+#. SysConfig
+msgid "Definition of mappings between public repository requests and internal OPMS repositories."
+msgstr "Mapiranje skladišta u javnim zahtevima sa internim OPMS skladištima."
+
+#. SysConfig
+msgid "Definition of package states."
+msgstr "Definicija stanja paketa."
+
+#. SysConfig
+msgid "Definition of renamed OPMS packages."
+msgstr "Definicija OPMS paketa sa promenjenim imenom."
+
+#. SysConfig
+msgid "Directory, which is used by Git to cache repositories."
+msgstr ""
+
+#. SysConfig
+msgid "Directory, which is used by Git to store temporary data."
+msgstr ""
+
+#. SysConfig
+msgid "Directory, which is used by Git to store working copies."
+msgstr ""
+
+#. SysConfig
+msgid "Disable online repositories."
+msgstr ""
+
+#. SysConfig
+msgid "Do not log git ssh connection authorization results for these users. Useful for automated stuff."
+msgstr "Isključi beleženje autorizacija prilikom ostvarivanja Git SSH konekcija za ove korisnike. Korisno za automatizaciju."
+
+#. SysConfig
+msgid "Dynamic Fields Screens"
+msgstr ""
+
+#. SysConfig
+msgid "DynamicFieldScreen"
+msgstr ""
+
+#. SysConfig
+msgid "Export all available public keys to authorized_keys file."
+msgstr "Izvezi sve dostupne javne ključeve u datoteku authorized_keys."
+
+#. SysConfig
+msgid "Export all relevant releases to ftp server."
+msgstr "Izvoz svih relevantnih izdanja na FTP server."
+
+#. SysConfig
+msgid "Frontend module registration for the OPMS object in the agent interface."
+msgstr "Modul registracije za OPMS objekat u interfejsu operatera."
+
+#. SysConfig
+msgid "Frontend module registration for the PublicOPMSRepository object in the public interface."
+msgstr "Modul registracije za PublicOPMSRepository objekat u javnom interfejsu."
+
+#. SysConfig
+msgid "Frontend module registration for the PublicOPMSRepositoryLookup object in the public interface."
+msgstr "Modul registracije za PublicOPMSRepositoryLookup objekat u javnom interfejsu."
+
+#. SysConfig
+msgid "Frontend module registration for the PublicOPMSTestBuild object in the public interface."
+msgstr "Modul registracije za PublicOPMSTestBuild objekat u javnom interfejsu."
+
+#. SysConfig
+msgid "Frontend module registration for the PublicPackageVerification object in the public interface."
+msgstr "Modul registracije za PublicPackageVerification objekat u javnom interfejsu."
+
+#. SysConfig
+msgid "Frontend module registration for the admin interface."
+msgstr ""
+
+#. SysConfig
+msgid "GIT Author registration."
+msgstr "Registracija Git autora."
+
+#. SysConfig
+msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
+msgstr ""
+
+#. SysConfig
+msgid "Generate documentations once per night."
+msgstr ""
+
+#. SysConfig
+msgid "Git"
+msgstr "Git"
+
+#. SysConfig
+msgid "Git Management"
+msgstr "Git upravljanje"
+
+#. SysConfig
+msgid "Git Repository"
+msgstr ""
+
+#. SysConfig
+msgid "Group, whose members have delete admin permissions in OPMS."
+msgstr "Grupa čiji članovi imaju dozvolu za brisanje u OPMS."
+
+#. SysConfig
+msgid "Group, whose members have repository admin permissions in OPMS."
+msgstr "Grupa čiji članovi imaju administratorske dozvole u OPMS."
+
+#. SysConfig
+msgid "Group, whose members will see CI test result information in OPMS screens."
+msgstr ""
+
+#. SysConfig
+msgid "Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface."
+msgstr "Grupe u kojima registrovani korisnik (po korisničkom imenu i lozinci) mora biti član da bi imao dozvolu za kreiranje test izdanja paketa u javnom interfejsu."
+
+#. SysConfig
+msgid "Groups which will be set during git project creation processes while adding OPMS repositories."
+msgstr "Grupe koje će biti podešene prilikom kreiranja GIT projekta u slučaju dodavanja OPMS skladišta."
+
+#. SysConfig
+msgid "Manage dynamic field in screens."
+msgstr ""
+
+#. SysConfig
+msgid "Manage your public SSH key(s) for Git access here. Make sure to save this preference when you add a new key."
+msgstr "Uredite svoje javne SSH ključeve za Git pristup. Obratite pažnju da morate sačuvati ovo podešavanje prilikom dodavanja novog ključa."
+
+#. SysConfig
+msgid "Module to generate statistics about the added code lines."
+msgstr "Modul za generisanje statistika o broju dodatih linija koda."
+
+#. SysConfig
+msgid "Module to generate statistics about the growth of code."
+msgstr "Modul za generisanje statistika o uvećanju koda."
+
+#. SysConfig
+msgid "Module to generate statistics about the number of git commits."
+msgstr "Modul za generisanje statistika o broju Git komitova."
+
+#. SysConfig
+msgid "Module to generate statistics about the removed code lines."
+msgstr "Modul za generisanje statistika o broju uklonjenih linija koda."
+
+#. SysConfig
+msgid "OPMS"
+msgstr "OPMS"
+
+#. SysConfig
+msgid "Only users who have rw permissions in one of these groups may access git."
+msgstr "Samo korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće Git pristup."
+
+#. SysConfig
+msgid "Option to set a package compatibility manually."
+msgstr ""
+
+#. SysConfig
+msgid "Parameters for the pages in the BranchView screen."
+msgstr "Parametri za stranice u ekranu prikaza grane."
+
+#. SysConfig
+msgid "Pre-Definition of the 'GITProjectName' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
+msgstr "Predefinisanje dinamičkog polja 'GITProjectName': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano."
+
+#. SysConfig
+msgid "Pre-Definition of the 'GITRepositoryName' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
+msgstr "Predefinisanje dinamičkog polja 'GITRepositoryName': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano."
+
+#. SysConfig
+msgid "Pre-Definition of the 'PackageDeprecated' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
+msgstr "Predefinisanje dinamičkog polja 'PackageDeprecated': Group => grupa za pristup dinamičkim poljima; AlwaysVisible => polje može biti uklonjeno (0|1); InformationAreaName => naslov dodataka; InformationAreaSize => veličina i pozicija dodataka (Large|Small); Name => naziv dinamičkog polja; Priority => redosled dinamičkih polja; State => status polja (0 = onemogućeno, 1 = omogućeno, 2 = obavezno); FilterRepository => regularni izraz koji naziv skladišta mora da zadovoljava da bi polje bilo prikazano; FilterPackage => regularni izraz koje naziv paketa mora da zadovoljava da bi polje bilo prikazano; FilterBranch => regularni izraz koji naziv grane mora da zadovoljava da bi polje bilo prikazano; FilterRelease => regularni izraz koji verzija izdanja mora da zadovoljava da bi polje bilo prikazano."
+
+#. SysConfig
+msgid "Recipients that will be informed by email in case of errors."
+msgstr ""
+
+#. SysConfig
+msgid "SSH Keys for Git Access"
+msgstr "SSH ključevi za Git pristup"
+
+#. SysConfig
+msgid "Send analysis file"
+msgstr ""
+
+#. SysConfig
+msgid "Sets the git clone address to be used in repository listings."
+msgstr "Definiše adresu za Git kloniranje koja će biti korišćena u prikazu repozitorija."
+
+#. SysConfig
+msgid "Sets the home directory for git repositories."
+msgstr "Definiše direktorijum za Git repozitorije."
+
+#. SysConfig
+msgid "Sets the path for the BugzillaAddComment post receive script location."
+msgstr "Definiše putanju do BugzillaAddComment skripta."
+
+#. SysConfig
+msgid "Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
+msgstr "Definiše putanju do OTRSCodePolicy skripta. Preporučeno je da postoji poseban klon OTRSCodePolicy modula koji se redovno osvežava putem cron."
+
+#. SysConfig
+msgid "Show latest commits in git repositories."
+msgstr ""
+
+#. SysConfig
+msgid "Shows a link in the menu to go create a unit test from the current ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Synchronize OPMS tables with a remote database."
+msgstr "Sinhronizacija OPMS tabela sa udaljenom bazom."
+
+#. SysConfig
+msgid "The minimum version of the sphinx library."
+msgstr ""
+
+#. SysConfig
+msgid "The name of the sphinx theme to be used."
+msgstr ""
+
+#. SysConfig
+msgid "The path to the OTRS CSS file (relative below the static path)."
+msgstr ""
+
+#. SysConfig
+msgid "The path to the OTRS logo (relative below the static path)."
+msgstr ""
+
+#. SysConfig
+msgid "The path to the static folder, containing images and css files."
+msgstr ""
+
+#. SysConfig
+msgid "The path to the theme folder, containing the sphinx themes."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration defines all possible screens to enable or disable default columns."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration defines all possible screens to enable or disable dynamic fields."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration defines if only valids or all (invalids) dynamic fields should be shown."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration defines if the OTRS package verification should be active or disabled. If disabled all packages are shown as verified. It's still recommended to use only verified packages."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig 'Znuny4OTRSRepoType'."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration registers a Output post-filter to extend package verification."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration registers an OutputFilter module that removes OTRS Business Solution TM advertisements."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration registers an output filter to hide online repository selection in package manager."
+msgstr ""
+
+#. SysConfig
+msgid "Tidy unprocessed release that not passed test pomules checks for a long time."
+msgstr ""
+
+#. SysConfig
+msgid "Users who have rw permissions in one of these groups are permitted to execute force pushes 'git push --force'."
+msgstr "Korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće mogućnost izvršavanja komande 'git push --force'."
+
+#. SysConfig
+msgid "Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management."
+msgstr "Korisnici koji imaju rw dozvolu u jednoj od ovih grupa imaće mogućnost upravljanja projektima. Dodatno pripadnici će imati administracione privilegije za Git upravljanje."
 

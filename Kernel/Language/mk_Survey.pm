@@ -25,6 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Креирај нова анкета';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Вовед';
     $Self->{Translation}->{'Survey Introduction'} = 'Вовед во анкета';
     $Self->{Translation}->{'Notification Body'} = 'Известување за Содржина';
@@ -197,10 +198,16 @@ sub Data {
         '';
     $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
         '';
+    $Self->{Translation}->{'Defines the default frontend (HTML) theme to be used by the agents and customers. If you like, you can add your own theme. Please refer the administrator manual located at https://doc.otobo.org/.'} =
+        '';
+    $Self->{Translation}->{'Defines the default frontend language. All the possible values are determined by the available language files on the system. These values are listed as the keys in the setting \'DefaultUsedLanguages\'.'} =
+        '';
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
         'Ја дефинира стандардната височина на Richtext прегледот за SurveyZoom елементите.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
+        '';
+    $Self->{Translation}->{'Defines the parameters for the dashboard backend. "Cmd" is used to specify command with parameters. "Group" is used to restrict access to the plugin (e. g. Group: admin;group1;group2;). "Default" indicates if the plugin is enabled by default or if the user needs to enable it manually. "CacheTTL" indicates the cache expiration period in minutes for the plugin. "Mandatory" determines if the plugin is always shown and can not be removed by agents. Only works if DashboardBackend::AllowCmdOutput is enabled in Config.pm.'} =
         '';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
         'Дефинира прикажани колони во прегледот на анкети. Оваа опција нема ефект врз позицијата на колоните.';
@@ -223,7 +230,10 @@ sub Data {
         'Регистрација на модул за детално анкетирање во интерфејсот на агентот.';
     $Self->{Translation}->{'Frontend module registration for the PublicSurvey object in the public Survey area.'} =
         '';
+    $Self->{Translation}->{'If "LDAP" was selected for Customer::AuthModule and you wish to use TLS security to communicate with the LDAP server, the "verify" parameter can be specified here. See Net::LDAP::start_tls for more information about the parameter.'} =
+        '';
     $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = 'Ако овој израз се совпаѓа, анкета нема да биде испратена на клиентот.';
+    $Self->{Translation}->{'Ignores not ticket related attributes.'} = '';
     $Self->{Translation}->{'Limit.'} = '';
     $Self->{Translation}->{'Parameters for the pages (in which the surveys are shown) of the small survey overview.'} =
         'Параметри за страници (во кој се прикажуваат анкетите) на мала преглед на анкета.';
