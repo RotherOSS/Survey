@@ -30,10 +30,10 @@ sub Data {
     $Self->{Translation}->{'Survey Introduction'} = 'Знакомство с опросом';
     $Self->{Translation}->{'Notification Body'} = 'Тело уведомления';
     $Self->{Translation}->{'Internal Description'} = 'Внутреннее описание';
-    $Self->{Translation}->{'Customer conditions'} = '';
-    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
-    $Self->{Translation}->{'Public survey key'} = '';
-    $Self->{Translation}->{'Example survey'} = '';
+    $Self->{Translation}->{'Customer conditions'} = 'Условия для клиентов';
+    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = 'Выберите <Свойство клиента>, чтобы добавить условие.';
+    $Self->{Translation}->{'Public survey key'} = 'Открытый ключ опроса';
+    $Self->{Translation}->{'Example survey'} = 'Пример опроса';
 
     # Template: AgentSurveyEdit
     $Self->{Translation}->{'Edit General Info'} = 'Редактировать общую информацию';
@@ -250,9 +250,9 @@ sub Data {
         'Обозначение для идентификации опроса, например, Опрос№, Survey#, MySurvey#. По умолчанию Survey#.';
     $Self->{Translation}->{'Ticket event module to send automatically survey email requests to customers if a ticket is closed.'} =
         'Модуль управления событием для заявки, автоматически отправляющий письмо клиенту с опросом, при закрытии заявки.';
-    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = '';
+    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = 'Триггер удаления результатов (включая данные голосования и запросы).';
     $Self->{Translation}->{'Trigger sending delayed survey requests.'} = 'Триггер отправки задержанных запросов на опрос.';
-    $Self->{Translation}->{'Zoom into statistics details.'} = '';
+    $Self->{Translation}->{'Zoom into statistics details.'} = 'Масштабировать детали статистики.';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

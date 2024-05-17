@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::Language::ru_Survey;
+package Kernel::Language::ar_SA_Survey;
 
 use strict;
 use warnings;
@@ -24,44 +24,44 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'Create New Survey'} = 'Создать новый опрос';
-    $Self->{Translation}->{'Introduction'} = 'Описание';
-    $Self->{Translation}->{'Survey Introduction'} = 'Знакомство с опросом';
-    $Self->{Translation}->{'Notification Body'} = 'Тело уведомления';
-    $Self->{Translation}->{'Ticket Types'} = 'Типы заявок';
-    $Self->{Translation}->{'Internal Description'} = 'Внутреннее описание';
-    $Self->{Translation}->{'Customer conditions'} = 'Условия для клиентов';
-    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = 'Выберите <Свойство клиента>, чтобы добавить условие.';
-    $Self->{Translation}->{'Public survey key'} = 'Открытый ключ опроса';
-    $Self->{Translation}->{'Example survey'} = 'Пример опроса';
+    $Self->{Translation}->{'Create New Survey'} = '';
+    $Self->{Translation}->{'Introduction'} = '';
+    $Self->{Translation}->{'Survey Introduction'} = '';
+    $Self->{Translation}->{'Notification Body'} = '';
+    $Self->{Translation}->{'Ticket Types'} = '';
+    $Self->{Translation}->{'Internal Description'} = '';
+    $Self->{Translation}->{'Customer conditions'} = '';
+    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
+    $Self->{Translation}->{'Public survey key'} = '';
+    $Self->{Translation}->{'Example survey'} = '';
 
     # Template: AgentSurveyEdit
-    $Self->{Translation}->{'Edit General Info'} = 'Редактировать общую информацию';
+    $Self->{Translation}->{'Edit General Info'} = '';
 
     # Template: AgentSurveyEditQuestions
-    $Self->{Translation}->{'Edit Questions'} = 'Редактировать вопросы';
-    $Self->{Translation}->{'You are here'} = 'Вы здесь';
-    $Self->{Translation}->{'Survey Questions'} = 'Вопросы опроса';
-    $Self->{Translation}->{'Add Question'} = 'Добавть вопрос';
-    $Self->{Translation}->{'Type the question'} = 'Вопрос и тип вопроса';
-    $Self->{Translation}->{'Answer required'} = 'Требуются ответы';
-    $Self->{Translation}->{'No questions saved for this survey.'} = 'Сохраненых вопросов нет.';
-    $Self->{Translation}->{'Question'} = 'Вопрос';
-    $Self->{Translation}->{'Answer Required'} = 'Требуются Ответы';
+    $Self->{Translation}->{'Edit Questions'} = '';
+    $Self->{Translation}->{'You are here'} = '';
+    $Self->{Translation}->{'Survey Questions'} = '';
+    $Self->{Translation}->{'Add Question'} = '';
+    $Self->{Translation}->{'Type the question'} = '';
+    $Self->{Translation}->{'Answer required'} = '';
+    $Self->{Translation}->{'No questions saved for this survey.'} = '';
+    $Self->{Translation}->{'Question'} = '';
+    $Self->{Translation}->{'Answer Required'} = '';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
-        'По окончании редактирования вопросов опроса просто закройте этот экран.';
-    $Self->{Translation}->{'Close this window'} = 'Закрыть это окно';
-    $Self->{Translation}->{'Edit Question'} = 'Редактировать вопрос';
-    $Self->{Translation}->{'go back to questions'} = 'назад к вопросам';
-    $Self->{Translation}->{'Question:'} = 'Вопрос:';
-    $Self->{Translation}->{'Possible Answers For'} = 'Возможные ответы для';
-    $Self->{Translation}->{'Add Answer'} = 'Добавить ответ';
-    $Self->{Translation}->{'No answers saved for this question.'} = 'Не заданы варианты ответов для этого вопроса.';
+        '';
+    $Self->{Translation}->{'Close this window'} = '';
+    $Self->{Translation}->{'Edit Question'} = '';
+    $Self->{Translation}->{'go back to questions'} = '';
+    $Self->{Translation}->{'Question:'} = '';
+    $Self->{Translation}->{'Possible Answers For'} = '';
+    $Self->{Translation}->{'Add Answer'} = '';
+    $Self->{Translation}->{'No answers saved for this question.'} = '';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
-        'Этот вопрос не предусматривает несколько ответов, будет показано текстовое/textarea поле.';
-    $Self->{Translation}->{'Edit Answer'} = 'Редактировать ответ';
-    $Self->{Translation}->{'go back to edit question'} = 'назад к редактированию вопроса';
-    $Self->{Translation}->{'Answer:'} = 'Ответ:';
+        '';
+    $Self->{Translation}->{'Edit Answer'} = '';
+    $Self->{Translation}->{'go back to edit question'} = '';
+    $Self->{Translation}->{'Answer:'} = '';
 
     # Template: AgentSurveyOverviewNavBar
     $Self->{Translation}->{'Survey overview options'} = '';
@@ -70,107 +70,107 @@ sub Data {
     $Self->{Translation}->{'Survey Create Time'} = '';
     $Self->{Translation}->{'No restriction'} = '';
     $Self->{Translation}->{'Only surveys created between'} = '';
-    $Self->{Translation}->{'Max. shown surveys per page'} = 'Макс. кол-во опросов на страницу';
+    $Self->{Translation}->{'Max. shown surveys per page'} = '';
 
     # Template: AgentSurveyOverviewSmall
-    $Self->{Translation}->{'Notification Sender'} = 'Отправитель уведомления';
-    $Self->{Translation}->{'Notification Subject'} = 'Тема уведомления';
-    $Self->{Translation}->{'Changed By'} = 'Изменивший';
+    $Self->{Translation}->{'Notification Sender'} = '';
+    $Self->{Translation}->{'Notification Subject'} = '';
+    $Self->{Translation}->{'Changed By'} = '';
 
     # Template: AgentSurveyStats
-    $Self->{Translation}->{'Stats Overview of'} = 'Подробности опроса';
-    $Self->{Translation}->{'Requests Table'} = 'Таблица ответов';
+    $Self->{Translation}->{'Stats Overview of'} = '';
+    $Self->{Translation}->{'Requests Table'} = '';
     $Self->{Translation}->{'Select all requests'} = '';
-    $Self->{Translation}->{'Send Time'} = 'Время отправки';
-    $Self->{Translation}->{'Vote Time'} = 'Время ответа';
+    $Self->{Translation}->{'Send Time'} = '';
+    $Self->{Translation}->{'Vote Time'} = '';
     $Self->{Translation}->{'Select this request'} = '';
-    $Self->{Translation}->{'See Details'} = 'См. подробности';
+    $Self->{Translation}->{'See Details'} = '';
     $Self->{Translation}->{'Delete stats'} = '';
-    $Self->{Translation}->{'Survey Stat Details'} = 'Подробности опроса';
-    $Self->{Translation}->{'go back to stats overview'} = 'назад';
+    $Self->{Translation}->{'Survey Stat Details'} = '';
+    $Self->{Translation}->{'go back to stats overview'} = '';
     $Self->{Translation}->{'Previous vote'} = '';
     $Self->{Translation}->{'Next vote'} = '';
 
     # Template: AgentSurveyZoom
-    $Self->{Translation}->{'Survey Information'} = 'Информация по опросу';
-    $Self->{Translation}->{'Sent requests'} = 'Отправленные запросы';
-    $Self->{Translation}->{'Received surveys'} = 'Полученные опросы';
-    $Self->{Translation}->{'Survey Details'} = 'Информаия по опросу';
-    $Self->{Translation}->{'Ticket Services'} = 'Сервисы заявок';
-    $Self->{Translation}->{'Survey Results Graph'} = 'Результаты опроса в графике';
-    $Self->{Translation}->{'No stat results.'} = 'Статистики нет.';
+    $Self->{Translation}->{'Survey Information'} = '';
+    $Self->{Translation}->{'Sent requests'} = '';
+    $Self->{Translation}->{'Received surveys'} = '';
+    $Self->{Translation}->{'Survey Details'} = '';
+    $Self->{Translation}->{'Ticket Services'} = '';
+    $Self->{Translation}->{'Survey Results Graph'} = '';
+    $Self->{Translation}->{'No stat results.'} = '';
 
     # Template: PublicSurvey
-    $Self->{Translation}->{'Survey'} = 'Опросы';
-    $Self->{Translation}->{'Please answer these questions'} = 'Ответьте на эти вопросы:';
-    $Self->{Translation}->{'Show my answers'} = 'Показать мои ответы';
-    $Self->{Translation}->{'These are your answers'} = 'Ваши ответы';
-    $Self->{Translation}->{'Survey Title'} = 'Название опроса';
+    $Self->{Translation}->{'Survey'} = '';
+    $Self->{Translation}->{'Please answer these questions'} = '';
+    $Self->{Translation}->{'Show my answers'} = '';
+    $Self->{Translation}->{'These are your answers'} = '';
+    $Self->{Translation}->{'Survey Title'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyAdd.pm
-    $Self->{Translation}->{'Add New Survey'} = 'Добавить новый опрос';
+    $Self->{Translation}->{'Add New Survey'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEdit.pm
-    $Self->{Translation}->{'You have no permission for this survey!'} = 'У вас нет разрешения для этого опроса!';
+    $Self->{Translation}->{'You have no permission for this survey!'} = '';
     $Self->{Translation}->{'No SurveyID is given!'} = '';
-    $Self->{Translation}->{'Survey Edit'} = 'Редактировать опрос';
+    $Self->{Translation}->{'Survey Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
-    $Self->{Translation}->{'You have no permission for this survey or question!'} = 'У вас нет разрешения для этого опроса или вопроса!';
-    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = 'У вас нет разрешения для этого опроса, вопроса или ответа!';
-    $Self->{Translation}->{'Survey Edit Questions'} = 'Редактировать вопрос в опросе';
-    $Self->{Translation}->{'Yes/No'} = 'Да/Нет';
-    $Self->{Translation}->{'Radio (List)'} = 'Точки (Список)';
-    $Self->{Translation}->{'Checkbox (List)'} = 'Галочки (Список)';
+    $Self->{Translation}->{'You have no permission for this survey or question!'} = '';
+    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = '';
+    $Self->{Translation}->{'Survey Edit Questions'} = '';
+    $Self->{Translation}->{'Yes/No'} = '';
+    $Self->{Translation}->{'Radio (List)'} = '';
+    $Self->{Translation}->{'Checkbox (List)'} = '';
     $Self->{Translation}->{'Net Promoter Score'} = '';
-    $Self->{Translation}->{'Question Type'} = 'Тип вопроса';
-    $Self->{Translation}->{'Complete'} = 'Завершенный';
-    $Self->{Translation}->{'Incomplete'} = 'Незавершенный';
-    $Self->{Translation}->{'Question Edit'} = 'Редактировать вопрос';
-    $Self->{Translation}->{'Answer Edit'} = 'Редактировать ответ';
+    $Self->{Translation}->{'Question Type'} = '';
+    $Self->{Translation}->{'Complete'} = '';
+    $Self->{Translation}->{'Incomplete'} = '';
+    $Self->{Translation}->{'Question Edit'} = '';
+    $Self->{Translation}->{'Answer Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyStats.pm
-    $Self->{Translation}->{'Stats Overview'} = 'Обзор статистики';
-    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = 'У вас нет разрешения для этого опроса или статистики!';
-    $Self->{Translation}->{'Stats Detail'} = 'Подробный отчет';
+    $Self->{Translation}->{'Stats Overview'} = '';
+    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = '';
+    $Self->{Translation}->{'Stats Detail'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
-    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Нельзя задать новое состояние! Никакие вопросы не выделены.';
-    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = 'Невозможно задать новый статус! Вопросы не завершены.';
-    $Self->{Translation}->{'Status changed.'} = 'Изменить состояние.';
-    $Self->{Translation}->{'- No queue selected -'} = '- Ни одной очереди не выбрано -';
-    $Self->{Translation}->{'- No ticket type selected -'} = 'Не выбран тип заявки';
-    $Self->{Translation}->{'- No ticket service selected -'} = 'Не выбран сервис заявки';
-    $Self->{Translation}->{'- Change Status -'} = '- Изменить состояние -';
-    $Self->{Translation}->{'Master'} = 'Главный';
-    $Self->{Translation}->{'Invalid'} = 'Недействительный';
-    $Self->{Translation}->{'New Status'} = 'Новое состояние';
-    $Self->{Translation}->{'Survey Description'} = 'Описание опроса';
-    $Self->{Translation}->{'answered'} = 'ответили';
-    $Self->{Translation}->{'not answered'} = 'не ответили';
+    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = '';
+    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
+    $Self->{Translation}->{'Status changed.'} = '';
+    $Self->{Translation}->{'- No queue selected -'} = '';
+    $Self->{Translation}->{'- No ticket type selected -'} = '';
+    $Self->{Translation}->{'- No ticket service selected -'} = '';
+    $Self->{Translation}->{'- Change Status -'} = '';
+    $Self->{Translation}->{'Master'} = '';
+    $Self->{Translation}->{'Invalid'} = '';
+    $Self->{Translation}->{'New Status'} = '';
+    $Self->{Translation}->{'Survey Description'} = '';
+    $Self->{Translation}->{'answered'} = '';
+    $Self->{Translation}->{'not answered'} = '';
 
     # Perl Module: Kernel/Modules/PublicSurvey.pm
-    $Self->{Translation}->{'Thank you for your feedback.'} = 'Спасибо за Ваши ответы.';
-    $Self->{Translation}->{'The survey is finished.'} = 'Опрос завершен.';
+    $Self->{Translation}->{'Thank you for your feedback.'} = '';
+    $Self->{Translation}->{'The survey is finished.'} = '';
     $Self->{Translation}->{'Survey Message!'} = '';
-    $Self->{Translation}->{'Module not enabled.'} = 'Модуль не включен';
+    $Self->{Translation}->{'Module not enabled.'} = '';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
         '';
     $Self->{Translation}->{'Survey Error!'} = '';
-    $Self->{Translation}->{'Invalid survey key.'} = 'Неверный код опроса';
+    $Self->{Translation}->{'Invalid survey key.'} = '';
     $Self->{Translation}->{'The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken.'} =
         '';
     $Self->{Translation}->{'Survey Vote'} = '';
     $Self->{Translation}->{'Survey Vote Data'} = '';
-    $Self->{Translation}->{'You have already answered the survey.'} = 'Вы уже прошли опрос.';
+    $Self->{Translation}->{'You have already answered the survey.'} = '';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
     $Self->{Translation}->{'Survey List'} = '';
 
     # JS File: Survey.Agent.SurveyEditQuestions
     $Self->{Translation}->{'Do you really want to delete this question? ALL associated data will be LOST!'} =
-        'ы действительно хотите удалить этот вопрос?  ВСЕ связанные данные будут ПОТЕРЯНЫ!';
-    $Self->{Translation}->{'Do you really want to delete this answer?'} = 'Вы действительно желаете удалить  этот ответ?';
+        '';
+    $Self->{Translation}->{'Do you really want to delete this answer?'} = '';
 
     # SysConfig
     $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =

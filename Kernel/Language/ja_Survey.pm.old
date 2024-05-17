@@ -56,7 +56,7 @@ sub Data {
     $Self->{Translation}->{'Question:'} = '設問:';
     $Self->{Translation}->{'Possible Answers For'} = '選択肢';
     $Self->{Translation}->{'Add Answer'} = '回答の追加';
-    $Self->{Translation}->{'No answers saved for this question.'} = 'この質問への回答はまだありません';
+    $Self->{Translation}->{'No answers saved for this question.'} = 'この質問への回答はまだありません。';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
         'この質問には選択肢がありません。テキストエリアが表示されます。';
     $Self->{Translation}->{'Edit Answer'} = '回答の編集';
@@ -209,7 +209,7 @@ sub Data {
     $Self->{Translation}->{'Edit survey general information.'} = 'アンケート一般情報を編集';
     $Self->{Translation}->{'Edit survey questions.'} = 'アンケートの質問を修正';
     $Self->{Translation}->{'Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time.'} =
-        '公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答データを表示するShowVoteData画面を有効にするか否か';
+        '公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答データを表示するShowVoteData画面を有効にするか否かを設定します。';
     $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = 'サービスの送信条件を有効または無効にする。';
     $Self->{Translation}->{'Enable or disable the send condition check for the ticket type.'} =
         'ティケットタイプの送信条件を有効または無効にする。';

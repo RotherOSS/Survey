@@ -135,7 +135,7 @@ sub Data {
     $Self->{Translation}->{'Stats Detail'} = 'Yksityiskohtaiset tulokset';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
-    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Uuden tilan asettaminen ei onnistu! Et ole määrittänyt kysymyksiä!';
+    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Uuden tilan asettaminen ei onnistu! Et ole määrittänyt kysymyksiä.';
     $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
     $Self->{Translation}->{'Status changed.'} = 'Tila muutettu.';
     $Self->{Translation}->{'- No queue selected -'} = '';

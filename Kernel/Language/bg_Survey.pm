@@ -30,10 +30,10 @@ sub Data {
     $Self->{Translation}->{'Notification Body'} = 'Уведомяване';
     $Self->{Translation}->{'Ticket Types'} = 'Типове на билета';
     $Self->{Translation}->{'Internal Description'} = 'Вътрешно описание';
-    $Self->{Translation}->{'Customer conditions'} = '';
-    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
-    $Self->{Translation}->{'Public survey key'} = '';
-    $Self->{Translation}->{'Example survey'} = '';
+    $Self->{Translation}->{'Customer conditions'} = 'Клиентски условия';
+    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = 'Моля, изберете свойство на клиента, за да добавите условие.';
+    $Self->{Translation}->{'Public survey key'} = 'Ключ за обществено проучване';
+    $Self->{Translation}->{'Example survey'} = 'Примерна анкета';
 
     # Template: AgentSurveyEdit
     $Self->{Translation}->{'Edit General Info'} = 'Редактиране на основната информация';
@@ -50,7 +50,7 @@ sub Data {
     $Self->{Translation}->{'Answer Required'} = 'Необходим е отговор';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
         'Когато приключите с редактирането на въпросите от изследването, просто затворете този екран.';
-    $Self->{Translation}->{'Close this window'} = '';
+    $Self->{Translation}->{'Close this window'} = 'Затворете този прозорец';
     $Self->{Translation}->{'Edit Question'} = 'Редактиране на въпроса';
     $Self->{Translation}->{'go back to questions'} = 'Върнете се към въпросите';
     $Self->{Translation}->{'Question:'} = 'Въпрос :';
@@ -61,15 +61,15 @@ sub Data {
         'Няма няколко отговора, и ще се покаже текста.';
     $Self->{Translation}->{'Edit Answer'} = 'Редактиране на отговор';
     $Self->{Translation}->{'go back to edit question'} = 'Върнете се, за да редактирате въпроса';
-    $Self->{Translation}->{'Answer:'} = 'Отговор';
+    $Self->{Translation}->{'Answer:'} = 'Отговор:';
 
     # Template: AgentSurveyOverviewNavBar
-    $Self->{Translation}->{'Survey overview options'} = '';
+    $Self->{Translation}->{'Survey overview options'} = 'Опции за преглед на проучването';
     $Self->{Translation}->{'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'} =
-        '';
-    $Self->{Translation}->{'Survey Create Time'} = '';
-    $Self->{Translation}->{'No restriction'} = '';
-    $Self->{Translation}->{'Only surveys created between'} = '';
+        'Търси в атрибутите Number, Title, Introduction, Description, NotificationSender, NotificationSubject и NotificationBody, заменяйки други атрибути със същото име.';
+    $Self->{Translation}->{'Survey Create Time'} = 'Време за създаване на анкета';
+    $Self->{Translation}->{'No restriction'} = 'Без ограничение';
+    $Self->{Translation}->{'Only surveys created between'} = 'Само анкети, създадени между';
     $Self->{Translation}->{'Max. shown surveys per page'} = 'Макс. показани проучвания на страницата';
 
     # Template: AgentSurveyOverviewSmall
@@ -80,16 +80,16 @@ sub Data {
     # Template: AgentSurveyStats
     $Self->{Translation}->{'Stats Overview of'} = 'Преглед на Статистиката от';
     $Self->{Translation}->{'Requests Table'} = 'Таблица с исканията';
-    $Self->{Translation}->{'Select all requests'} = '';
+    $Self->{Translation}->{'Select all requests'} = 'Изберете всички заявки';
     $Self->{Translation}->{'Send Time'} = 'Време за изпращане';
     $Self->{Translation}->{'Vote Time'} = 'Време за гласуване';
-    $Self->{Translation}->{'Select this request'} = '';
+    $Self->{Translation}->{'Select this request'} = 'Изберете тази заявка';
     $Self->{Translation}->{'See Details'} = 'Детайли';
-    $Self->{Translation}->{'Delete stats'} = '';
+    $Self->{Translation}->{'Delete stats'} = 'Изтриване на статистика';
     $Self->{Translation}->{'Survey Stat Details'} = 'Данни за състоянието на изследването';
     $Self->{Translation}->{'go back to stats overview'} = 'Върнете се към общия преглед на статистическите данни';
-    $Self->{Translation}->{'Previous vote'} = '';
-    $Self->{Translation}->{'Next vote'} = '';
+    $Self->{Translation}->{'Previous vote'} = 'Предишно гласуване';
+    $Self->{Translation}->{'Next vote'} = 'Следващ вот';
 
     # Template: AgentSurveyZoom
     $Self->{Translation}->{'Survey Information'} = 'Информация за проучванията';
@@ -98,7 +98,7 @@ sub Data {
     $Self->{Translation}->{'Survey Details'} = 'Данни за изследването';
     $Self->{Translation}->{'Ticket Services'} = 'Билетни услуги';
     $Self->{Translation}->{'Survey Results Graph'} = 'Графика на резултатите от изследването';
-    $Self->{Translation}->{'No stat results.'} = 'Няма статически резултати';
+    $Self->{Translation}->{'No stat results.'} = 'Няма статически резултати.';
 
     # Template: PublicSurvey
     $Self->{Translation}->{'Survey'} = 'Проучване';
@@ -122,7 +122,7 @@ sub Data {
     $Self->{Translation}->{'Yes/No'} = 'ДА/НЕ';
     $Self->{Translation}->{'Radio (List)'} = 'Радио (списък)';
     $Self->{Translation}->{'Checkbox (List)'} = 'Квадратче за отметка (списък)';
-    $Self->{Translation}->{'Net Promoter Score'} = '';
+    $Self->{Translation}->{'Net Promoter Score'} = 'Нетен резултат на промоутъра';
     $Self->{Translation}->{'Question Type'} = 'Въпрос тип';
     $Self->{Translation}->{'Complete'} = 'Пълен';
     $Self->{Translation}->{'Incomplete'} = 'Непълен';
@@ -142,7 +142,7 @@ sub Data {
     $Self->{Translation}->{'- No ticket type selected -'} = '- Няма избран тип билет -';
     $Self->{Translation}->{'- No ticket service selected -'} = '- Няма избрана услуга за билети -';
     $Self->{Translation}->{'- Change Status -'} = '- Промяна на състоянието -';
-    $Self->{Translation}->{'Master'} = '';
+    $Self->{Translation}->{'Master'} = 'Главен';
     $Self->{Translation}->{'Invalid'} = 'Невалиден';
     $Self->{Translation}->{'New Status'} = 'Нов статус';
     $Self->{Translation}->{'Survey Description'} = 'Описание';
@@ -152,11 +152,11 @@ sub Data {
     # Perl Module: Kernel/Modules/PublicSurvey.pm
     $Self->{Translation}->{'Thank you for your feedback.'} = 'Благодарим Ви за обратната връзка.';
     $Self->{Translation}->{'The survey is finished.'} = 'Проучването приключи.';
-    $Self->{Translation}->{'Survey Message!'} = 'Съобщение';
+    $Self->{Translation}->{'Survey Message!'} = 'Съобщение!';
     $Self->{Translation}->{'Module not enabled.'} = 'Модулът не е активиран.';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
         'Тази функция не е активирана, моля, свържете се с Администратор.';
-    $Self->{Translation}->{'Survey Error!'} = 'Грешка';
+    $Self->{Translation}->{'Survey Error!'} = 'Грешка!';
     $Self->{Translation}->{'Invalid survey key.'} = 'Невалиден ключ за проучване.';
     $Self->{Translation}->{'The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken.'} =
         'Въведеният ключ е невалиден, ако сте проследили връзката, може би това е остаряло или невалидно.';
@@ -165,7 +165,7 @@ sub Data {
     $Self->{Translation}->{'You have already answered the survey.'} = 'Вие вече сте отговорили.';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
-    $Self->{Translation}->{'Survey List'} = '';
+    $Self->{Translation}->{'Survey List'} = 'Списък с анкети';
 
     # JS File: Survey.Agent.SurveyEditQuestions
     $Self->{Translation}->{'Do you really want to delete this question? ALL associated data will be LOST!'} =

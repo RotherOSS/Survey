@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::Language::fi_Survey;
+package Kernel::Language::lv_Survey;
 
 use strict;
 use warnings;
@@ -24,43 +24,43 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'Create New Survey'} = 'Luo uusi kysely';
+    $Self->{Translation}->{'Create New Survey'} = '';
     $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
-    $Self->{Translation}->{'Introduction'} = 'Esittely';
-    $Self->{Translation}->{'Survey Introduction'} = 'Kyselyn esittely';
-    $Self->{Translation}->{'Notification Body'} = 'Muistutuksen viesti';
-    $Self->{Translation}->{'Internal Description'} = 'Sisäinen kuvaus';
+    $Self->{Translation}->{'Introduction'} = '';
+    $Self->{Translation}->{'Survey Introduction'} = '';
+    $Self->{Translation}->{'Notification Body'} = '';
+    $Self->{Translation}->{'Internal Description'} = '';
     $Self->{Translation}->{'Customer conditions'} = '';
     $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
     $Self->{Translation}->{'Public survey key'} = '';
     $Self->{Translation}->{'Example survey'} = '';
 
     # Template: AgentSurveyEdit
-    $Self->{Translation}->{'Edit General Info'} = 'Muokkaa tietoja';
+    $Self->{Translation}->{'Edit General Info'} = '';
 
     # Template: AgentSurveyEditQuestions
-    $Self->{Translation}->{'Edit Questions'} = 'Muokkaa kysymyksiä';
+    $Self->{Translation}->{'Edit Questions'} = '';
     $Self->{Translation}->{'You are here'} = '';
-    $Self->{Translation}->{'Survey Questions'} = 'Kyselyn kysymykset';
-    $Self->{Translation}->{'Add Question'} = 'Lisää kysymys';
-    $Self->{Translation}->{'Type the question'} = 'Syötä kysymys';
+    $Self->{Translation}->{'Survey Questions'} = '';
+    $Self->{Translation}->{'Add Question'} = '';
+    $Self->{Translation}->{'Type the question'} = '';
     $Self->{Translation}->{'Answer required'} = '';
-    $Self->{Translation}->{'No questions saved for this survey.'} = 'Kyselyyn ei ole tallennettu kysymyksiä.';
-    $Self->{Translation}->{'Question'} = 'Kysymys';
+    $Self->{Translation}->{'No questions saved for this survey.'} = '';
+    $Self->{Translation}->{'Question'} = '';
     $Self->{Translation}->{'Answer Required'} = '';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
         '';
     $Self->{Translation}->{'Close this window'} = '';
-    $Self->{Translation}->{'Edit Question'} = 'Muokkaa kysymystä';
-    $Self->{Translation}->{'go back to questions'} = 'mene takaisin kysymyksiin';
+    $Self->{Translation}->{'Edit Question'} = '';
+    $Self->{Translation}->{'go back to questions'} = '';
     $Self->{Translation}->{'Question:'} = '';
-    $Self->{Translation}->{'Possible Answers For'} = 'Vastausvaihtoehdot';
-    $Self->{Translation}->{'Add Answer'} = 'Lisää vastaus';
+    $Self->{Translation}->{'Possible Answers For'} = '';
+    $Self->{Translation}->{'Add Answer'} = '';
     $Self->{Translation}->{'No answers saved for this question.'} = '';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
-        'Tässä ei ole useita vastauksia, näytetään tekstialue.';
-    $Self->{Translation}->{'Edit Answer'} = 'Muokkaa vastausta';
-    $Self->{Translation}->{'go back to edit question'} = 'mene takaisin muokkaamaan kysymystä';
+        '';
+    $Self->{Translation}->{'Edit Answer'} = '';
+    $Self->{Translation}->{'go back to edit question'} = '';
     $Self->{Translation}->{'Answer:'} = '';
 
     # Template: AgentSurveyOverviewNavBar
@@ -73,85 +73,85 @@ sub Data {
     $Self->{Translation}->{'Max. shown surveys per page'} = '';
 
     # Template: AgentSurveyOverviewSmall
-    $Self->{Translation}->{'Notification Sender'} = 'Muistutuksen lähettäjä';
-    $Self->{Translation}->{'Notification Subject'} = 'Muistutuksen otsikko';
-    $Self->{Translation}->{'Changed By'} = 'Muokkaaja';
+    $Self->{Translation}->{'Notification Sender'} = '';
+    $Self->{Translation}->{'Notification Subject'} = '';
+    $Self->{Translation}->{'Changed By'} = '';
 
     # Template: AgentSurveyStats
-    $Self->{Translation}->{'Stats Overview of'} = 'Tulosten yhteenveto';
+    $Self->{Translation}->{'Stats Overview of'} = '';
     $Self->{Translation}->{'Requests Table'} = '';
     $Self->{Translation}->{'Select all requests'} = '';
-    $Self->{Translation}->{'Send Time'} = 'Lähetysaika';
-    $Self->{Translation}->{'Vote Time'} = 'Äänestysaika';
+    $Self->{Translation}->{'Send Time'} = '';
+    $Self->{Translation}->{'Vote Time'} = '';
     $Self->{Translation}->{'Select this request'} = '';
     $Self->{Translation}->{'See Details'} = '';
     $Self->{Translation}->{'Delete stats'} = '';
-    $Self->{Translation}->{'Survey Stat Details'} = 'Kyselyn tulosten yksityiskohdat';
-    $Self->{Translation}->{'go back to stats overview'} = 'mene takaisin yhteenvetoon';
+    $Self->{Translation}->{'Survey Stat Details'} = '';
+    $Self->{Translation}->{'go back to stats overview'} = '';
     $Self->{Translation}->{'Previous vote'} = '';
     $Self->{Translation}->{'Next vote'} = '';
 
     # Template: AgentSurveyZoom
-    $Self->{Translation}->{'Survey Information'} = 'Kyselyn tiedot';
-    $Self->{Translation}->{'Sent requests'} = 'Lähetettyjä kyselyitä';
-    $Self->{Translation}->{'Received surveys'} = 'Vastausten määrä';
-    $Self->{Translation}->{'Survey Details'} = 'Kyselyn yksityiskohdat';
+    $Self->{Translation}->{'Survey Information'} = '';
+    $Self->{Translation}->{'Sent requests'} = '';
+    $Self->{Translation}->{'Received surveys'} = '';
+    $Self->{Translation}->{'Survey Details'} = '';
     $Self->{Translation}->{'Ticket Services'} = '';
-    $Self->{Translation}->{'Survey Results Graph'} = 'Tulosten graafit';
-    $Self->{Translation}->{'No stat results.'} = 'Ei tuloksia.';
+    $Self->{Translation}->{'Survey Results Graph'} = '';
+    $Self->{Translation}->{'No stat results.'} = '';
 
     # Template: PublicSurvey
-    $Self->{Translation}->{'Survey'} = 'Kysely';
-    $Self->{Translation}->{'Please answer these questions'} = 'Vastaa seuraaviin kysymyksiin';
-    $Self->{Translation}->{'Show my answers'} = 'Näytä vastaukseni';
-    $Self->{Translation}->{'These are your answers'} = 'Nämä ovat vastauksesi';
-    $Self->{Translation}->{'Survey Title'} = 'Kyselyn otsikko';
+    $Self->{Translation}->{'Survey'} = '';
+    $Self->{Translation}->{'Please answer these questions'} = '';
+    $Self->{Translation}->{'Show my answers'} = '';
+    $Self->{Translation}->{'These are your answers'} = '';
+    $Self->{Translation}->{'Survey Title'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyAdd.pm
-    $Self->{Translation}->{'Add New Survey'} = 'Lisää uusi kysely';
+    $Self->{Translation}->{'Add New Survey'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEdit.pm
     $Self->{Translation}->{'You have no permission for this survey!'} = '';
     $Self->{Translation}->{'No SurveyID is given!'} = '';
-    $Self->{Translation}->{'Survey Edit'} = 'Muokkaa kyselyä';
+    $Self->{Translation}->{'Survey Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
     $Self->{Translation}->{'You have no permission for this survey or question!'} = '';
     $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = '';
-    $Self->{Translation}->{'Survey Edit Questions'} = 'Muokkaa kysymyksiä';
-    $Self->{Translation}->{'Yes/No'} = 'Kyllä / Ei';
-    $Self->{Translation}->{'Radio (List)'} = 'Valitse yksi monesta (Lista)';
-    $Self->{Translation}->{'Checkbox (List)'} = 'Valitse yksi tai useampia (Lista)';
+    $Self->{Translation}->{'Survey Edit Questions'} = '';
+    $Self->{Translation}->{'Yes/No'} = '';
+    $Self->{Translation}->{'Radio (List)'} = '';
+    $Self->{Translation}->{'Checkbox (List)'} = '';
     $Self->{Translation}->{'Net Promoter Score'} = '';
     $Self->{Translation}->{'Question Type'} = '';
-    $Self->{Translation}->{'Complete'} = 'Valmis';
-    $Self->{Translation}->{'Incomplete'} = 'Keskeneräinen';
-    $Self->{Translation}->{'Question Edit'} = 'Kysymysten muokkaus';
-    $Self->{Translation}->{'Answer Edit'} = 'Vastausten muokkaus';
+    $Self->{Translation}->{'Complete'} = '';
+    $Self->{Translation}->{'Incomplete'} = '';
+    $Self->{Translation}->{'Question Edit'} = '';
+    $Self->{Translation}->{'Answer Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyStats.pm
-    $Self->{Translation}->{'Stats Overview'} = 'Tulosten yhteenveto';
+    $Self->{Translation}->{'Stats Overview'} = '';
     $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = '';
-    $Self->{Translation}->{'Stats Detail'} = 'Yksityiskohtaiset tulokset';
+    $Self->{Translation}->{'Stats Detail'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
-    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Uuden tilan asettaminen ei onnistu! Et ole määrittänyt kysymyksiä.';
+    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = '';
     $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
-    $Self->{Translation}->{'Status changed.'} = 'Tila muutettu.';
+    $Self->{Translation}->{'Status changed.'} = '';
     $Self->{Translation}->{'- No queue selected -'} = '';
     $Self->{Translation}->{'- No ticket type selected -'} = '';
     $Self->{Translation}->{'- No ticket service selected -'} = '';
-    $Self->{Translation}->{'- Change Status -'} = '- Muuta tilaa -';
+    $Self->{Translation}->{'- Change Status -'} = '';
     $Self->{Translation}->{'Master'} = '';
-    $Self->{Translation}->{'Invalid'} = 'Poistettu käytöstä';
+    $Self->{Translation}->{'Invalid'} = '';
     $Self->{Translation}->{'New Status'} = '';
-    $Self->{Translation}->{'Survey Description'} = 'Kyselyn kuvaus';
-    $Self->{Translation}->{'answered'} = 'Vastasi';
-    $Self->{Translation}->{'not answered'} = 'Ei vastannut';
+    $Self->{Translation}->{'Survey Description'} = '';
+    $Self->{Translation}->{'answered'} = '';
+    $Self->{Translation}->{'not answered'} = '';
 
     # Perl Module: Kernel/Modules/PublicSurvey.pm
-    $Self->{Translation}->{'Thank you for your feedback.'} = 'Kiitos palautteestasi.';
-    $Self->{Translation}->{'The survey is finished.'} = 'Kysely on valmis.';
+    $Self->{Translation}->{'Thank you for your feedback.'} = '';
+    $Self->{Translation}->{'The survey is finished.'} = '';
     $Self->{Translation}->{'Survey Message!'} = '';
     $Self->{Translation}->{'Module not enabled.'} = '';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
@@ -162,7 +162,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Survey Vote'} = '';
     $Self->{Translation}->{'Survey Vote Data'} = '';
-    $Self->{Translation}->{'You have already answered the survey.'} = 'Olet jo vastannut tähän kyselyyn.';
+    $Self->{Translation}->{'You have already answered the survey.'} = '';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
     $Self->{Translation}->{'Survey List'} = '';
@@ -173,8 +173,8 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this answer?'} = '';
 
     # SysConfig
-    $Self->{Translation}->{'A Survey Module.'} = 'Kyselyominaisuus';
-    $Self->{Translation}->{'A module to edit survey questions.'} = 'Moduuli kyselyiden luontiin.';
+    $Self->{Translation}->{'A Survey Module.'} = '';
+    $Self->{Translation}->{'A module to edit survey questions.'} = '';
     $Self->{Translation}->{'All parameters for the Survey object in the agent interface.'} =
         '';
     $Self->{Translation}->{'Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail.'} =
@@ -238,7 +238,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface.'} =
         '';
-    $Self->{Translation}->{'Stats Details'} = 'Tulosten yksityiskohdat';
+    $Self->{Translation}->{'Stats Details'} = '';
     $Self->{Translation}->{'Survey Add Module.'} = '';
     $Self->{Translation}->{'Survey Edit Module.'} = '';
     $Self->{Translation}->{'Survey Overview "Small" Limit'} = '';

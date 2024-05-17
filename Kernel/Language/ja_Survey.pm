@@ -56,7 +56,7 @@ sub Data {
     $Self->{Translation}->{'Question:'} = '設問:';
     $Self->{Translation}->{'Possible Answers For'} = '選択肢';
     $Self->{Translation}->{'Add Answer'} = '回答の追加';
-    $Self->{Translation}->{'No answers saved for this question.'} = 'この質問への回答はまだありません';
+    $Self->{Translation}->{'No answers saved for this question.'} = 'この質問への回答はまだありません。';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
         'この質問には選択肢がありません。テキストエリアが表示されます。';
     $Self->{Translation}->{'Edit Answer'} = '回答の編集';

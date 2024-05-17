@@ -24,7 +24,6 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = 'Alle Felder, die mit einem Sternchen (*) markiert sind, sind Pflichtfelder.';
     $Self->{Translation}->{'Create New Survey'} = 'Neue Umfrage erstellen';
     $Self->{Translation}->{'Introduction'} = 'Einleitung';
     $Self->{Translation}->{'Survey Introduction'} = 'Umfrage Einleitung';
