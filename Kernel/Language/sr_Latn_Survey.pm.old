@@ -24,154 +24,154 @@ sub Data {
     my $Self = shift;
 
     # Template: AgentSurveyAdd
-    $Self->{Translation}->{'Create New Survey'} = 'Napravi novu anketu';
+    $Self->{Translation}->{'Create New Survey'} = '';
     $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
-    $Self->{Translation}->{'Introduction'} = 'Uvod';
-    $Self->{Translation}->{'Survey Introduction'} = 'Uvod u anketu';
-    $Self->{Translation}->{'Notification Body'} = 'Sardžaj obaveštenja';
-    $Self->{Translation}->{'Ticket Types'} = 'Tipovi tiketa';
-    $Self->{Translation}->{'Internal Description'} = 'Interni opis';
-    $Self->{Translation}->{'Customer conditions'} = 'Uslovi klijenta';
-    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = 'Molimo izaberite atribut klijenta za dodavanje uslova.';
-    $Self->{Translation}->{'Public survey key'} = 'Javni ključ ankete';
-    $Self->{Translation}->{'Example survey'} = 'Primer ankete';
+    $Self->{Translation}->{'Introduction'} = '';
+    $Self->{Translation}->{'Survey Introduction'} = '';
+    $Self->{Translation}->{'Notification Body'} = '';
+    $Self->{Translation}->{'Ticket Types'} = '';
+    $Self->{Translation}->{'Internal Description'} = '';
+    $Self->{Translation}->{'Customer conditions'} = '';
+    $Self->{Translation}->{'Please choose a Customer property to add a condition.'} = '';
+    $Self->{Translation}->{'Public survey key'} = '';
+    $Self->{Translation}->{'Example survey'} = '';
 
     # Template: AgentSurveyEdit
-    $Self->{Translation}->{'Edit General Info'} = 'Uredi opšte informacije';
+    $Self->{Translation}->{'Edit General Info'} = '';
 
     # Template: AgentSurveyEditQuestions
-    $Self->{Translation}->{'Edit Questions'} = 'Uredi pitanja';
-    $Self->{Translation}->{'You are here'} = 'Vi ste ovde';
-    $Self->{Translation}->{'Survey Questions'} = 'Anketna pitanja';
-    $Self->{Translation}->{'Add Question'} = 'Dodaj pitanje';
-    $Self->{Translation}->{'Type the question'} = 'Unesi pitanje';
-    $Self->{Translation}->{'Answer required'} = 'Obavezan odgovor';
-    $Self->{Translation}->{'No questions saved for this survey.'} = 'Za ovu anketu nisu sačuvana pitanja.';
-    $Self->{Translation}->{'Question'} = 'Pitanje';
-    $Self->{Translation}->{'Answer Required'} = 'Obavezan odgovor';
+    $Self->{Translation}->{'Edit Questions'} = '';
+    $Self->{Translation}->{'You are here'} = '';
+    $Self->{Translation}->{'Survey Questions'} = '';
+    $Self->{Translation}->{'Add Question'} = '';
+    $Self->{Translation}->{'Type the question'} = '';
+    $Self->{Translation}->{'Answer required'} = '';
+    $Self->{Translation}->{'No questions saved for this survey.'} = '';
+    $Self->{Translation}->{'Question'} = '';
+    $Self->{Translation}->{'Answer Required'} = '';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
-        'Kada završite sa uređivanjem anketnih pitanja samo zatvorite ovaj prozor.';
-    $Self->{Translation}->{'Close this window'} = 'Zatvori ovaj prozor';
-    $Self->{Translation}->{'Edit Question'} = 'Uredi pitanje';
-    $Self->{Translation}->{'go back to questions'} = 'nazad na pitanja';
-    $Self->{Translation}->{'Question:'} = 'Pitanje:';
-    $Self->{Translation}->{'Possible Answers For'} = 'Mogući odgovori za';
-    $Self->{Translation}->{'Add Answer'} = 'Dodaj odgovor';
-    $Self->{Translation}->{'No answers saved for this question.'} = 'Za ovo pitanje nisu sačuvani odgovori.';
+        '';
+    $Self->{Translation}->{'Close this window'} = '';
+    $Self->{Translation}->{'Edit Question'} = '';
+    $Self->{Translation}->{'go back to questions'} = '';
+    $Self->{Translation}->{'Question:'} = '';
+    $Self->{Translation}->{'Possible Answers For'} = '';
+    $Self->{Translation}->{'Add Answer'} = '';
+    $Self->{Translation}->{'No answers saved for this question.'} = '';
     $Self->{Translation}->{'This doesn\'t have several answers, a textarea will be displayed.'} =
-        'Ovo nema više odgovora, prostor za tekst će biti prikazan.';
-    $Self->{Translation}->{'Edit Answer'} = 'Uredi odgovor';
-    $Self->{Translation}->{'go back to edit question'} = 'nazad na uređivanje pitanja';
-    $Self->{Translation}->{'Answer:'} = 'Odgovor:';
+        '';
+    $Self->{Translation}->{'Edit Answer'} = '';
+    $Self->{Translation}->{'go back to edit question'} = '';
+    $Self->{Translation}->{'Answer:'} = '';
 
     # Template: AgentSurveyOverviewNavBar
-    $Self->{Translation}->{'Survey overview options'} = 'Podešavanja pregleda ankete';
+    $Self->{Translation}->{'Survey overview options'} = '';
     $Self->{Translation}->{'Searches in the attributes Number, Title, Introduction, Description, NotificationSender, NotificationSubject and NotificationBody, overriding other attributes with the same name.'} =
-        'Pretrage u atributima Number, Title, Introduction, Description, NotificationSender, NotificationSubject i NotificationBody, redefiniu druge atribute sa istim imenom.';
-    $Self->{Translation}->{'Survey Create Time'} = 'Vreme kreiranja ankete';
-    $Self->{Translation}->{'No restriction'} = 'Bez ograničenja';
-    $Self->{Translation}->{'Only surveys created between'} = 'Samo ankete kreirane između';
-    $Self->{Translation}->{'Max. shown surveys per page'} = 'Maksimum prikazanih anketa po strani';
+        '';
+    $Self->{Translation}->{'Survey Create Time'} = '';
+    $Self->{Translation}->{'No restriction'} = '';
+    $Self->{Translation}->{'Only surveys created between'} = '';
+    $Self->{Translation}->{'Max. shown surveys per page'} = '';
 
     # Template: AgentSurveyOverviewSmall
-    $Self->{Translation}->{'Notification Sender'} = 'Pošiljaoc obaveštenja';
-    $Self->{Translation}->{'Notification Subject'} = 'Predmet obaveštenja';
-    $Self->{Translation}->{'Changed By'} = 'Menjao';
+    $Self->{Translation}->{'Notification Sender'} = '';
+    $Self->{Translation}->{'Notification Subject'} = '';
+    $Self->{Translation}->{'Changed By'} = '';
 
     # Template: AgentSurveyStats
-    $Self->{Translation}->{'Stats Overview of'} = 'Pregled statistike za';
-    $Self->{Translation}->{'Requests Table'} = 'Tabela zahteva';
-    $Self->{Translation}->{'Select all requests'} = 'Izaberi sve zahteve';
-    $Self->{Translation}->{'Send Time'} = 'Vreme slanja';
-    $Self->{Translation}->{'Vote Time'} = 'Vreme glasanja';
-    $Self->{Translation}->{'Select this request'} = 'Izaberi ovaj zahtev';
-    $Self->{Translation}->{'See Details'} = 'Vidi detalje';
-    $Self->{Translation}->{'Delete stats'} = 'Obriši statistike';
-    $Self->{Translation}->{'Survey Stat Details'} = 'Detalji statistike ankete';
-    $Self->{Translation}->{'go back to stats overview'} = 'idi nazad na pregled statistike';
-    $Self->{Translation}->{'Previous vote'} = 'Prethodni glas';
-    $Self->{Translation}->{'Next vote'} = 'Sledeći glas';
+    $Self->{Translation}->{'Stats Overview of'} = '';
+    $Self->{Translation}->{'Requests Table'} = '';
+    $Self->{Translation}->{'Select all requests'} = '';
+    $Self->{Translation}->{'Send Time'} = '';
+    $Self->{Translation}->{'Vote Time'} = '';
+    $Self->{Translation}->{'Select this request'} = '';
+    $Self->{Translation}->{'See Details'} = '';
+    $Self->{Translation}->{'Delete stats'} = '';
+    $Self->{Translation}->{'Survey Stat Details'} = '';
+    $Self->{Translation}->{'go back to stats overview'} = '';
+    $Self->{Translation}->{'Previous vote'} = '';
+    $Self->{Translation}->{'Next vote'} = '';
 
     # Template: AgentSurveyZoom
-    $Self->{Translation}->{'Survey Information'} = 'Informacije o anketi';
-    $Self->{Translation}->{'Sent requests'} = 'Poslati zahtevi';
-    $Self->{Translation}->{'Received surveys'} = 'Primljene ankete';
-    $Self->{Translation}->{'Survey Details'} = 'Detalji ankete';
-    $Self->{Translation}->{'Ticket Services'} = 'Usluge za tiket';
-    $Self->{Translation}->{'Survey Results Graph'} = 'Grafikon rezultata ankete';
-    $Self->{Translation}->{'No stat results.'} = 'Nema statistike rezultata.';
+    $Self->{Translation}->{'Survey Information'} = '';
+    $Self->{Translation}->{'Sent requests'} = '';
+    $Self->{Translation}->{'Received surveys'} = '';
+    $Self->{Translation}->{'Survey Details'} = '';
+    $Self->{Translation}->{'Ticket Services'} = '';
+    $Self->{Translation}->{'Survey Results Graph'} = '';
+    $Self->{Translation}->{'No stat results.'} = '';
 
     # Template: PublicSurvey
-    $Self->{Translation}->{'Survey'} = 'Anketa';
-    $Self->{Translation}->{'Please answer these questions'} = 'Molimo da odgovorite na ova pitanja';
-    $Self->{Translation}->{'Show my answers'} = 'Pokaži moje odgovore';
-    $Self->{Translation}->{'These are your answers'} = 'Ovo su vaši odgovori';
-    $Self->{Translation}->{'Survey Title'} = 'Naslov ankete';
+    $Self->{Translation}->{'Survey'} = '';
+    $Self->{Translation}->{'Please answer these questions'} = '';
+    $Self->{Translation}->{'Show my answers'} = '';
+    $Self->{Translation}->{'These are your answers'} = '';
+    $Self->{Translation}->{'Survey Title'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyAdd.pm
-    $Self->{Translation}->{'Add New Survey'} = 'Dodaj novu anketu';
+    $Self->{Translation}->{'Add New Survey'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEdit.pm
-    $Self->{Translation}->{'You have no permission for this survey!'} = 'Nemate dozvolu za ovu anketu!';
-    $Self->{Translation}->{'No SurveyID is given!'} = 'Nije dat ID Ankete!';
-    $Self->{Translation}->{'Survey Edit'} = 'Uredi anketu';
+    $Self->{Translation}->{'You have no permission for this survey!'} = '';
+    $Self->{Translation}->{'No SurveyID is given!'} = '';
+    $Self->{Translation}->{'Survey Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyEditQuestions.pm
-    $Self->{Translation}->{'You have no permission for this survey or question!'} = 'Nemate dozvolu za ovu anketu ili pitanje!';
-    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = 'Nemate dozvolu za ovu anketu, pitanje ili odgovor!';
-    $Self->{Translation}->{'Survey Edit Questions'} = 'Uredi anketna pitanja';
-    $Self->{Translation}->{'Yes/No'} = 'Da/Ne';
-    $Self->{Translation}->{'Radio (List)'} = 'Dugme (Lista)';
-    $Self->{Translation}->{'Checkbox (List)'} = 'Polje za potvrdu (Lista)';
-    $Self->{Translation}->{'Net Promoter Score'} = 'Ocena promotera';
-    $Self->{Translation}->{'Question Type'} = 'Tip pitanja';
-    $Self->{Translation}->{'Complete'} = 'Kompletno';
-    $Self->{Translation}->{'Incomplete'} = 'Nekompletno';
-    $Self->{Translation}->{'Question Edit'} = 'Uredi pitanje';
-    $Self->{Translation}->{'Answer Edit'} = 'Uredi odgovor';
+    $Self->{Translation}->{'You have no permission for this survey or question!'} = '';
+    $Self->{Translation}->{'You have no permission for this survey, question or answer!'} = '';
+    $Self->{Translation}->{'Survey Edit Questions'} = '';
+    $Self->{Translation}->{'Yes/No'} = '';
+    $Self->{Translation}->{'Radio (List)'} = '';
+    $Self->{Translation}->{'Checkbox (List)'} = '';
+    $Self->{Translation}->{'Net Promoter Score'} = '';
+    $Self->{Translation}->{'Question Type'} = '';
+    $Self->{Translation}->{'Complete'} = '';
+    $Self->{Translation}->{'Incomplete'} = '';
+    $Self->{Translation}->{'Question Edit'} = '';
+    $Self->{Translation}->{'Answer Edit'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyStats.pm
-    $Self->{Translation}->{'Stats Overview'} = 'Pregled statistike';
-    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = 'Nemate dozvolu za ovu anketu ili detalje statistike!';
-    $Self->{Translation}->{'Stats Detail'} = 'Detalj statistike';
+    $Self->{Translation}->{'Stats Overview'} = '';
+    $Self->{Translation}->{'You have no permission for this survey or stats detail!'} = '';
+    $Self->{Translation}->{'Stats Detail'} = '';
 
     # Perl Module: Kernel/Modules/AgentSurveyZoom.pm
-    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = 'Ne može se postaviti novi status! Nema definisanih pitanja.';
-    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = 'Ne može se postaviti novi status! Pitanja su nepotpuna.';
-    $Self->{Translation}->{'Status changed.'} = 'Status promenjen.';
-    $Self->{Translation}->{'- No queue selected -'} = '- Nije izabran red -';
-    $Self->{Translation}->{'- No ticket type selected -'} = '- Nije izabran tip tiketa -';
-    $Self->{Translation}->{'- No ticket service selected -'} = '- Nije izabran servis tiketa -';
-    $Self->{Translation}->{'- Change Status -'} = '- Promeni status -';
-    $Self->{Translation}->{'Master'} = 'Glavno';
-    $Self->{Translation}->{'Invalid'} = 'Nevažeći';
-    $Self->{Translation}->{'New Status'} = 'Novi status';
-    $Self->{Translation}->{'Survey Description'} = 'Opis ankete';
-    $Self->{Translation}->{'answered'} = 'odgovoreno';
-    $Self->{Translation}->{'not answered'} = 'nije odgovoreno';
+    $Self->{Translation}->{'Can\'t set new status! No questions defined.'} = '';
+    $Self->{Translation}->{'Can\'t set new status! Questions incomplete.'} = '';
+    $Self->{Translation}->{'Status changed.'} = '';
+    $Self->{Translation}->{'- No queue selected -'} = '';
+    $Self->{Translation}->{'- No ticket type selected -'} = '';
+    $Self->{Translation}->{'- No ticket service selected -'} = '';
+    $Self->{Translation}->{'- Change Status -'} = '';
+    $Self->{Translation}->{'Master'} = '';
+    $Self->{Translation}->{'Invalid'} = '';
+    $Self->{Translation}->{'New Status'} = '';
+    $Self->{Translation}->{'Survey Description'} = '';
+    $Self->{Translation}->{'answered'} = '';
+    $Self->{Translation}->{'not answered'} = '';
 
     # Perl Module: Kernel/Modules/PublicSurvey.pm
-    $Self->{Translation}->{'Thank you for your feedback.'} = 'Hvala na vašim odgovorima.';
-    $Self->{Translation}->{'The survey is finished.'} = 'Anketa je završena.';
-    $Self->{Translation}->{'Survey Message!'} = 'Poruka ankete!';
-    $Self->{Translation}->{'Module not enabled.'} = 'Modul nije aktiviran.';
+    $Self->{Translation}->{'Thank you for your feedback.'} = '';
+    $Self->{Translation}->{'The survey is finished.'} = '';
+    $Self->{Translation}->{'Survey Message!'} = '';
+    $Self->{Translation}->{'Module not enabled.'} = '';
     $Self->{Translation}->{'This functionality is not enabled, please contact your administrator.'} =
-        'Ova funcionalnost nije omogućena, molimo kontaktirajte vašeg administratora.';
-    $Self->{Translation}->{'Survey Error!'} = 'Greška u anketi!';
-    $Self->{Translation}->{'Invalid survey key.'} = 'Neispravan ključ ankete.';
+        '';
+    $Self->{Translation}->{'Survey Error!'} = '';
+    $Self->{Translation}->{'Invalid survey key.'} = '';
     $Self->{Translation}->{'The inserted survey key is invalid, if you followed a link maybe this is obsolete or broken.'} =
-        'Uneti ključ ankete je neispravan, ako ste pratili vezu možda je ona nevažeća ili oštećena.';
-    $Self->{Translation}->{'Survey Vote'} = 'Glasanje u anketi';
-    $Self->{Translation}->{'Survey Vote Data'} = 'Podaci o glasanju u anketi';
-    $Self->{Translation}->{'You have already answered the survey.'} = 'Već ste odgovorili na anketu.';
+        '';
+    $Self->{Translation}->{'Survey Vote'} = '';
+    $Self->{Translation}->{'Survey Vote Data'} = '';
+    $Self->{Translation}->{'You have already answered the survey.'} = '';
 
     # Perl Module: Kernel/System/Stats/Dynamic/SurveyList.pm
-    $Self->{Translation}->{'Survey List'} = 'Lista anketa';
+    $Self->{Translation}->{'Survey List'} = '';
 
     # JS File: Survey.Agent.SurveyEditQuestions
     $Self->{Translation}->{'Do you really want to delete this question? ALL associated data will be LOST!'} =
-        'Da li zaista želite da obrišete ovo pitanje? SVI povezani podaci će biti IZGUBLJENI!';
-    $Self->{Translation}->{'Do you really want to delete this answer?'} = 'Da li zaista želite da izbrišete ovaj odgovor?';
+        '';
+    $Self->{Translation}->{'Do you really want to delete this answer?'} = '';
 
     # SysConfig
     $Self->{Translation}->{'A Survey Module.'} = 'Anketni modul.';
