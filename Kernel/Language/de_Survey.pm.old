@@ -25,7 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Neue Umfrage erstellen';
-    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = 'Alle mit einem Sternchen (*) gekennzeichneten Felder sind Pflichtfelder.';
     $Self->{Translation}->{'Introduction'} = 'Einleitung';
     $Self->{Translation}->{'Survey Introduction'} = 'Umfrage Einleitung';
     $Self->{Translation}->{'Notification Body'} = 'Benachrichtigung Text';
@@ -192,7 +192,7 @@ sub Data {
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Definiert, ob Umfrage-Anfragen nur an reale Kunden gesendet werden.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
-        'Definiert die maximale Anzahl von Umfragen, die ein Kunde innerhalb von 30 Tagen zugesandt bekommt. ( 0 steht für „kein Maximum“, alle Umfrage-E-Mails werden versandt.)';
+        'Definiert die maximale Anzahl von Umfragen, die ein Kunde innerhalb von 30 Tagen zugesandt bekommt. (0 steht für „kein Maximum“, alle Umfrage-E-Mails werden versandt.)';
     $Self->{Translation}->{'Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' setting.'} =
         'Definiert die Anzahl an Stunden für die ein Ticket geschlossen sein muss, um den Versand einer Umfrage auszulösen ( 0 bedeutet, sofort nach Schließen eines Tickets senden ). Hinweis: Das Absenden der verzögerten Umfrage wird durch den OTOBO Daemon erledigt, vorherige Aktivierung durch die \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' Einstellung.';
     $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
