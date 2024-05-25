@@ -25,6 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Crear unha enquisa nova';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Introdución';
     $Self->{Translation}->{'Survey Introduction'} = 'Introdución á enquisa';
     $Self->{Translation}->{'Notification Body'} = 'Texto da notificación';
@@ -173,144 +174,86 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this answer?'} = 'Confirma que desexa eliminar esta pregunta?';
 
     # SysConfig
-    $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =
+    $Self->{Translation}->{'A Survey Module.'} = 'Un módulo de enquisas.';
+    $Self->{Translation}->{'A module to edit survey questions.'} = 'Un módulo para editar preguntas de enquisas.';
+    $Self->{Translation}->{'All parameters for the Survey object in the agent interface.'} =
+        'Tódolos parametros para ó obxeto Enquisa na interface de axente.';
+    $Self->{Translation}->{'Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail.'} =
+        'Cantidade de días despois de enviar unha enquisa de correo no que non se envían novas peticións de enquisa ao mesmo cliente. Seleccionando 0 enviará sempre o correo de enquisa.';
+    $Self->{Translation}->{'Default body for the notification email to customers about new survey.'} =
+        'Corpo por defecto para o correo electrónico de notificación a clientes sobre nova enquisa.';
+    $Self->{Translation}->{'Default sender for the notification email to customers about new survey.'} =
+        'Remitente por defecto para o correo electrónico de notificación a clientes sobre nova enquisa.';
+    $Self->{Translation}->{'Default subject for the notification email to customers about new survey.'} =
+        'Tema por defecto para o correo electrónico de notificación a clientes sobre nova enquisa.';
+    $Self->{Translation}->{'Defines an overview module to show the small view of a survey list.'} =
+        'Define un módulo de vista xeral para mostrar a vista pequena dunha lista de enquisas.';
+    $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         '';
-    $Self->{Translation}->{'Access repos via http or https.'} = '';
-    $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = '';
-    $Self->{Translation}->{'Backend module registration for the config conflict check module.'} =
+    $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         '';
-    $Self->{Translation}->{'Backend module registration for the file conflict check module.'} =
+    $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
+        'Define a cantidade máxima de enquisas que envíanse aos clientes por 30 días. (0 significa no máximo, tódalas peticións de enquisa serán enviadas).';
+    $Self->{Translation}->{'Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' setting.'} =
         '';
-    $Self->{Translation}->{'Backend module registration for the function redefine check module.'} =
+    $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
         '';
-    $Self->{Translation}->{'Backend module registration for the manual set module.'} = '';
-    $Self->{Translation}->{'Block hooks to be created for BS ad removal.'} = '';
-    $Self->{Translation}->{'Block hooks to be created for package manager output filter.'} =
+    $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
+        'Define a altura por defecto para vistas texto enriquecido para elementos de ZoomEnquisa.';
+    $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = '';
+    $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         '';
-    $Self->{Translation}->{'Branch View commit limit'} = '';
-    $Self->{Translation}->{'CodePolicy'} = '';
-    $Self->{Translation}->{'Commit limit per page for Branch view screen'} = '';
-    $Self->{Translation}->{'Create analysis file'} = '';
-    $Self->{Translation}->{'Creates a analysis file from this ticket and sends to Znuny.'} =
+    $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
+        'Define as columnas mostradas na visión xeral de enquisa. Esta opción non ten ningún efecto sobre a posición das columnas.';
+    $Self->{Translation}->{'Determines if the statistics module may generate survey lists.'} =
         '';
-    $Self->{Translation}->{'Creates a analysis file from this ticket.'} = '';
-    $Self->{Translation}->{'Define private addon repos.'} = '';
-    $Self->{Translation}->{'Defines the filter that processes the HTML templates.'} = '';
-    $Self->{Translation}->{'Defines the test module for checking code policy.'} = '';
-    $Self->{Translation}->{'Definition of GIT clone/push URL Prefix.'} = '';
-    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
+    $Self->{Translation}->{'Edit survey general information.'} = '';
+    $Self->{Translation}->{'Edit survey questions.'} = '';
+    $Self->{Translation}->{'Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time.'} =
+        'Active ou desactive a pantalla MostrarDatosVoto na interface pública para mostrar datos dun resultado de enquisa especifica cando o cliente intenta responder a enquisa por segunda vez.';
+    $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = 'Active ou desactive a condicion de comprobacion enviar para o servizo.';
+    $Self->{Translation}->{'Enable or disable the send condition check for the ticket type.'} =
+        'Active ou desactive a comprobación enviar condición para o tipo de ticket.';
+    $Self->{Translation}->{'Frontend module registration for survey add in the agent interface.'} =
+        'Rexistro módulo frontend para engadir enquisa na interface de axente.';
+    $Self->{Translation}->{'Frontend module registration for survey edit in the agent interface.'} =
+        'Rexistro módulo frontend para editar enquisa na interface de axente.';
+    $Self->{Translation}->{'Frontend module registration for survey stats in the agent interface.'} =
+        'Rexistro módulo frontend para estatísticas de enquisa na interface de axente.';
+    $Self->{Translation}->{'Frontend module registration for survey zoom in the agent interface.'} =
+        'Rexistro módulo frontend para zoom de enquisa na interface de axente.';
+    $Self->{Translation}->{'Frontend module registration for the PublicSurvey object in the public Survey area.'} =
+        'Rexistro módulo frontend para obxecto EnquisaPublica na área Enquisa pública.';
+    $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = 'Se a expresión regular coincide, non enviaráse enquisa ao cliente.';
+    $Self->{Translation}->{'Limit.'} = '';
+    $Self->{Translation}->{'Parameters for the pages (in which the surveys are shown) of the small survey overview.'} =
+        'Parámetros para as páxinas (nas cales as enquisas son mostradas) da vista xeral pequena da enquisa.';
+    $Self->{Translation}->{'Public Survey.'} = 'Enquisa pública.';
+    $Self->{Translation}->{'Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of \'Task###SurveyRequestsDelete\' setting.'} =
         '';
-    $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
-        '';
-    $Self->{Translation}->{'Definition of external MD5 sums (key => MD5, Value => Vendor, PackageName, Version, Date).'} =
-        '';
-    $Self->{Translation}->{'Definition of mappings between public repository requests and internal OPMS repositories.'} =
-        '';
-    $Self->{Translation}->{'Definition of package states.'} = '';
-    $Self->{Translation}->{'Definition of renamed OPMS packages.'} = '';
-    $Self->{Translation}->{'Directory, which is used by Git to cache repositories.'} = '';
-    $Self->{Translation}->{'Directory, which is used by Git to store temporary data.'} = '';
-    $Self->{Translation}->{'Directory, which is used by Git to store working copies.'} = '';
-    $Self->{Translation}->{'Disable online repositories.'} = '';
-    $Self->{Translation}->{'Do not log git ssh connection authorization results for these users. Useful for automated stuff.'} =
-        '';
-    $Self->{Translation}->{'Dynamic Fields Screens'} = '';
-    $Self->{Translation}->{'DynamicFieldScreen'} = '';
-    $Self->{Translation}->{'Export all available public keys to authorized_keys file.'} = '';
-    $Self->{Translation}->{'Export all relevant releases to ftp server.'} = '';
-    $Self->{Translation}->{'Frontend module registration for the OPMS object in the agent interface.'} =
-        '';
-    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepository object in the public interface.'} =
-        '';
-    $Self->{Translation}->{'Frontend module registration for the PublicOPMSRepositoryLookup object in the public interface.'} =
-        '';
-    $Self->{Translation}->{'Frontend module registration for the PublicOPMSTestBuild object in the public interface.'} =
-        '';
-    $Self->{Translation}->{'Frontend module registration for the PublicPackageVerification object in the public interface.'} =
-        '';
-    $Self->{Translation}->{'Frontend module registration for the admin interface.'} = '';
-    $Self->{Translation}->{'GIT Author registration.'} = '';
-    $Self->{Translation}->{'Generate HTML comment hooks for the specified blocks so that filters can use them.'} =
-        '';
-    $Self->{Translation}->{'Generate documentations once per night.'} = '';
-    $Self->{Translation}->{'Git'} = '';
-    $Self->{Translation}->{'Git Management'} = '';
-    $Self->{Translation}->{'Git Repository'} = '';
-    $Self->{Translation}->{'Group, whose members have delete admin permissions in OPMS.'} = '';
-    $Self->{Translation}->{'Group, whose members have repository admin permissions in OPMS.'} =
-        '';
-    $Self->{Translation}->{'Group, whose members will see CI test result information in OPMS screens.'} =
-        '';
-    $Self->{Translation}->{'Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface.'} =
-        '';
-    $Self->{Translation}->{'Groups which will be set during git project creation processes while adding OPMS repositories.'} =
-        '';
-    $Self->{Translation}->{'Manage dynamic field in screens.'} = '';
-    $Self->{Translation}->{'Manage your public SSH key(s) for Git access here. Make sure to save this preference when you add a new key.'} =
-        '';
-    $Self->{Translation}->{'Module to generate statistics about the added code lines.'} = '';
-    $Self->{Translation}->{'Module to generate statistics about the growth of code.'} = '';
-    $Self->{Translation}->{'Module to generate statistics about the number of git commits.'} =
-        '';
-    $Self->{Translation}->{'Module to generate statistics about the removed code lines.'} = '';
-    $Self->{Translation}->{'OPMS'} = '';
-    $Self->{Translation}->{'Only users who have rw permissions in one of these groups may access git.'} =
-        '';
-    $Self->{Translation}->{'Option to set a package compatibility manually.'} = '';
-    $Self->{Translation}->{'Parameters for the pages in the BranchView screen.'} = '';
-    $Self->{Translation}->{'Pre-Definition of the \'GITProjectName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
-        '';
-    $Self->{Translation}->{'Pre-Definition of the \'GITRepositoryName\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
-        '';
-    $Self->{Translation}->{'Pre-Definition of the \'PackageDeprecated\' Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
-        '';
-    $Self->{Translation}->{'Recipients that will be informed by email in case of errors.'} =
-        '';
-    $Self->{Translation}->{'SSH Keys for Git Access'} = '';
-    $Self->{Translation}->{'Send analysis file'} = '';
-    $Self->{Translation}->{'Sets the git clone address to be used in repository listings.'} =
-        '';
-    $Self->{Translation}->{'Sets the home directory for git repositories.'} = '';
-    $Self->{Translation}->{'Sets the path for the BugzillaAddComment post receive script location.'} =
-        '';
-    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
-        '';
-    $Self->{Translation}->{'Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
-        '';
-    $Self->{Translation}->{'Show latest commits in git repositories.'} = '';
-    $Self->{Translation}->{'Shows a link in the menu to go create a unit test from the current ticket.'} =
-        '';
-    $Self->{Translation}->{'Synchronize OPMS tables with a remote database.'} = '';
-    $Self->{Translation}->{'The minimum version of the sphinx library.'} = '';
-    $Self->{Translation}->{'The name of the sphinx theme to be used.'} = '';
-    $Self->{Translation}->{'The path to the OTRS CSS file (relative below the static path).'} =
-        '';
-    $Self->{Translation}->{'The path to the OTRS logo (relative below the static path).'} = '';
-    $Self->{Translation}->{'The path to the static folder, containing images and css files.'} =
-        '';
-    $Self->{Translation}->{'The path to the theme folder, containing the sphinx themes.'} = '';
-    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable default columns.'} =
-        '';
-    $Self->{Translation}->{'This configuration defines all possible screens to enable or disable dynamic fields.'} =
-        '';
-    $Self->{Translation}->{'This configuration defines if only valids or all (invalids) dynamic fields should be shown.'} =
-        '';
-    $Self->{Translation}->{'This configuration defines if the OTRS package verification should be active or disabled. If disabled all packages are shown as verified. It\'s still recommended to use only verified packages.'} =
-        '';
-    $Self->{Translation}->{'This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig \'Znuny4OTRSRepoType\'.'} =
-        '';
-    $Self->{Translation}->{'This configuration registers a Output post-filter to extend package verification.'} =
-        '';
-    $Self->{Translation}->{'This configuration registers an OutputFilter module that removes OTRS Business Solution TM advertisements.'} =
-        '';
-    $Self->{Translation}->{'This configuration registers an output filter to hide online repository selection in package manager.'} =
-        '';
-    $Self->{Translation}->{'Tidy unprocessed release that not passed test pomules checks for a long time.'} =
-        '';
-    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to execute force pushes \'git push --force\'.'} =
-        '';
-    $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management.'} =
-        '';
+    $Self->{Translation}->{'Shows a link in the menu to edit a survey in its zoom view of the agent interface.'} =
+        'Mostra un enlace no menu para editar unha enquisa na súa vista zoom da interface de axente.';
+    $Self->{Translation}->{'Shows a link in the menu to edit survey questions in its zoom view of the agent interface.'} =
+        'Mostra un enlace no menu para editar preguntas de enquisa na súa vista zoom da interface de axente.';
+    $Self->{Translation}->{'Shows a link in the menu to go back in the survey zoom view of the agent interface.'} =
+        'Mostra un enlace no menu para voltar atrás na vista zoom de enquisa da interface de axente.';
+    $Self->{Translation}->{'Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface.'} =
+        'Mostra un enlace no menu para facer zoom nos detalles das estatísticas da enquisa na súa vista zoom da interface de axente.';
+    $Self->{Translation}->{'Stats Details'} = 'Detalles das estatísticas';
+    $Self->{Translation}->{'Survey Add Module.'} = '';
+    $Self->{Translation}->{'Survey Edit Module.'} = 'Módulo Editar Enquisa.';
+    $Self->{Translation}->{'Survey Overview "Small" Limit'} = 'Límite "Pequeno" Vista Xeral Enquisa';
+    $Self->{Translation}->{'Survey Stats Module.'} = 'Módulo Estatísticas Enquisa.';
+    $Self->{Translation}->{'Survey Zoom Module.'} = 'Módulo Zoom Enquisa.';
+    $Self->{Translation}->{'Survey limit per page for Survey Overview "Small".'} = '';
+    $Self->{Translation}->{'Surveys will not be sent to the configured email addresses.'} = 'Enquisas non serán enviadas aos enderezos de correo electrónico configurados.';
+    $Self->{Translation}->{'The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#.'} =
+        'O identificador para unha enquisa, ex. Enquisa#, MiñaEnquisa#, Por defecto é Enquisa#.';
+    $Self->{Translation}->{'Ticket event module to send automatically survey email requests to customers if a ticket is closed.'} =
+        'Módulo evento ticket para enviar automaticamente peticións de enquisa de correo electrónico se un ticket é pechado.';
+    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = '';
+    $Self->{Translation}->{'Trigger sending delayed survey requests.'} = '';
+    $Self->{Translation}->{'Zoom into statistics details.'} = '';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
