@@ -200,6 +200,8 @@ sub Data {
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
         '調査拡大画面の要素に対してリッチテキストに対するデフォルトの高さを定義します。';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'アンケート統計を削除できるグループ（rw）を定義します。';
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'SurveyZoom要素のリッチテキストビューの最大高さを定義します。';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =

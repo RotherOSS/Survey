@@ -1028,3 +1028,7 @@ msgstr "Benutzer die über rw-Berechtigungen in einer dieser Gruppen verfügen, 
 msgid "All fields marked with an asterisk (*) are mandatory."
 msgstr "Alle mit einem Sternchen (*) gekennzeichneten Felder sind Pflichtfelder."
 
+#. SysConfig
+msgid "Defines the initial height for the rich text editor component in pixels."
+msgstr ""
+

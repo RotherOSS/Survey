@@ -1026,3 +1026,7 @@ msgstr ""
 msgid "All fields marked with an asterisk (*) are mandatory."
 msgstr ""
 
+#. SysConfig
+msgid "Defines the initial height for the rich text editor component in pixels."
+msgstr ""
+

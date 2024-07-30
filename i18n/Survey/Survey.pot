@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
-"POT-Creation-Date: 2024-05-25 16:52+0000\n"
+"POT-Creation-Date: 2024-07-30 03:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -512,6 +512,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines the groups (rw) which can delete survey stats."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the initial height for the rich text editor component in pixels."
 msgstr ""
 
 #. SysConfig
