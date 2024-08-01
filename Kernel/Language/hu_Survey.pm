@@ -189,6 +189,8 @@ sub Data {
         'Egy áttekintő modult határoz meg egy kérdőívlista kis nézetének megjelenítéséhez.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Meghatározza azokat a csoportokat, amelyeknek jogosultsága van a kérdőív állapotának megváltoztatására. Alapértelmezetten a tömb üres, és az ügyintézők az összes csoportból megváltoztathatják a kérdőív állapotát.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Meghatározza, hogy a kérdőív kérések csak valódi ügyfeleknek legyenek kiküldve.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -201,6 +203,8 @@ sub Data {
         'Meghatározza a Rich Text nézetek alapértelmezett magasságát a kérdőív nagyítás elemeknél.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Meghatározza azokat a csoportokat (írás, olvasás), amelyek törölhetik a kérdőív statisztikákat.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Meghatározza a Rich Text nézetek legnagyobb magasságát a kérdőív nagyítás elemeknél.';

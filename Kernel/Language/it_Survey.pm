@@ -189,6 +189,8 @@ sub Data {
         'Definisce il modulo per mostrare la visualizzazione compatta di una lista di sondaggi.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Definisce i gruppi che dispongono dell\'autorizzazione per modificare lo stato del sondaggio. La matrice è vuota per impostazione predefinita e gli agenti di tutti i gruppi possono modificare lo stato del sondaggio.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Definisce se le richieste di sondaggio verranno inviate solo a clienti reali.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -201,6 +203,8 @@ sub Data {
         'Definisce l\'altezza di default per la vista completa per gli elementi SurveyZoom.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Definisce i gruppi (rw) che possono eliminare le statistiche del sondaggio.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Definisce l\'altezza massima per le viste Richtext per gli elementi SurveyZoom.';

@@ -189,6 +189,8 @@ sub Data {
         'Модул за преглед, за да покаже изглед на списъка с проучванията.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Определя групи, които имат разрешение да променят статуса на проучването. Масивът е празен по подразбиране и агентите от всички групи могат да променят статуса на проучването.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Определя дали заявките за проучвания ще се изпращат само до реални клиенти.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -201,6 +203,8 @@ sub Data {
         'Височината по подразбиране за изгледа с текст за елементите на Zoom Survey.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Дефинира групите (rw), които могат да изтриват статистически данни от проучването.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Максималната височина за изгледа с текст за елементите на Zoom Survey.';

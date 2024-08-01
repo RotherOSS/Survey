@@ -189,6 +189,8 @@ sub Data {
         'Definieert een overzichtsmodule om de kleine weergave van een overzichtslijst weer te geven.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Definieert groepen die toestemming hebben om de enquêtestatus te wijzigen. Array is standaard leeg en agenten uit alle groepen kunnen de enquêtestatus wijzigen.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Bepaalt of enquêteverzoeken alleen naar echte klanten worden verzonden.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -201,6 +203,8 @@ sub Data {
         'Definieert de standaardhoogte voor Richtext-weergaven voor EnquêteZoom-elementen.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Definieert de groepen (rw) die enquêtestatistieken kunnen verwijderen.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Bepaalt de maximale hoogte voor Richtext-weergaven voor EnquêteZoom-elementen.';

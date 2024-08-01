@@ -189,6 +189,8 @@ sub Data {
         'Define o módulo de visão geral para exibir a visão pequena de uma lista de pesquisa.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Define grupos que têm permissão para alterar o status da pesquisa.  A matriz está vazia por padrão e agentes de todos os grupos podem alterar o status da pesquisa.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Define se as solicitações de pequisa serão enviadas apenas para clientes reais.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -201,6 +203,8 @@ sub Data {
         'Define a altura padrão para Richtext nos elementos da SurveyZoom';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Define os grupos (rw) que podem excluir as estatísticas da pesquisa.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Define a altura máxima para visualizações do Richtext nos elementos do SurveyZoom.';
