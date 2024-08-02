@@ -189,8 +189,6 @@ sub Data {
         'Define una módulo resumen para mostrar la vista pequeña de la lista de encuestas.';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'Define los grupos que tienen permiso para cambiar el estado de la encuesta. La matriz está vacía por defecto y los agentes de todos los grupos pueden cambiar el estado de la encuesta.';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'Define si las solicitudes de encuesta solo se enviarán a clientes reales.';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -202,10 +200,6 @@ sub Data {
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
         'Define la altura predefinida para la vista de texto enriquecido para los elementos de la pantall de detalle de estadisticas.';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'Define los grupos (rw) que pueden eliminar las estadísticas de la encuesta.';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
-        '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'Define la altura máxima para las vistas de texto enriquecido para los elementos de zoom de encuesta.';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
-"POT-Creation-Date: 2024-08-01 03:49+0000\n"
+"POT-Creation-Date: 2024-08-02 03:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -491,10 +491,6 @@ msgid "Defines groups which have a permission to change survey status. Array is 
 msgstr ""
 
 #. SysConfig
-msgid "Defines if parent-child translations for queues and services should be generated automatically."
-msgstr ""
-
-#. SysConfig
 msgid "Defines if survey requests will be only send to real customers."
 msgstr ""
 
@@ -516,14 +512,6 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines the groups (rw) which can delete survey stats."
-msgstr ""
-
-#. SysConfig
-msgid "Defines the initial height for the rich text editor component in pixels."
-msgstr ""
-
-#. SysConfig
-msgid "Defines the initial height in pixels for the rich text editor component for this screen."
 msgstr ""
 
 #. SysConfig

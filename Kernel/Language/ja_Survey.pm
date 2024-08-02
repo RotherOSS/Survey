@@ -189,8 +189,6 @@ sub Data {
         'アンケート一覧(S)を表示するための一覧モジュールの定義';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         'アンケートのステータスを変更する権限を持つグループを定義します。 アレイはデフォルトでは空で、全てのグループの担当者がアンケートのステータスを変更できます。';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         'アンケートが実際の顧客に送信されるかどうかを定義します。';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -202,10 +200,6 @@ sub Data {
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
         '調査拡大画面の要素に対してリッチテキストに対するデフォルトの高さを定義します。';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'アンケート統計を削除できるグループ（rw）を定義します。';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
-        '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         'SurveyZoom要素のリッチテキストビューの最大高さを定義します。';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =

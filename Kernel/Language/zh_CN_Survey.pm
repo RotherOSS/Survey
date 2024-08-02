@@ -189,8 +189,6 @@ sub Data {
         '定义一个显示调查列表简洁视图的概览模块。';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
         '定义有权更改调查状态的组。 默认情况下，数组为空，所有组的服务器人员都可以更改调查状态。';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
         '定义调查请求是否只发送给真实客户。';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
@@ -202,10 +200,6 @@ sub Data {
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
         '调查详情窗口富文本查看的默认高度。';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = '定义可以删除统计数据的组（rw）。';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
-        '';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
         '定义调查详情窗口富文本查看视图的默认高度。';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
